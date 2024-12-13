@@ -36,7 +36,7 @@ export default function Featured() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Innovative Solutions</h3>
               <p className="mb-4">
-                At Goldman Holding, we're driven by an unwavering passion for
+                At Goldman Holding, we&apos;re driven by an unwavering passion for
                 innovation and an unrelenting commitment to quality. By combining
                 these core values with our extensive expertise and experience, we deliver exceptional
                 results and build enduring relationships with our clients. <br />

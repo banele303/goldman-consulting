@@ -1,20 +1,14 @@
-import {Navbar} from "../components/ui/Navbar";
-import BathSecond from "./bath-second";
+import { Navbar } from "../components/ui/Navbar";
 import BathroomHero from "./home-hero";
-import PortFolio from "./portfollio";
-
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-
-
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import Footer from "../components/ui/footer";
 import SecondTestimonials from "../pressure-washing/second-testimonials";
 import ContactButtons from "../components/ui/contact-bottons";
-
 import GoldmanConstruction from "./bath-second";
 import AboutGoldmanConstruction from "./about-construction";
 import FAQSection from "./FRQ-Construction";
+
 
 export default function Home() {
     return (
@@ -22,9 +16,9 @@ export default function Home() {
             <Navbar />
 
 
-           
+
             <BathroomHero />
-            <AboutGoldmanConstruction/>
+            <AboutGoldmanConstruction />
             <GoldmanConstruction />
             {/* <PortFolio /> */}
 
@@ -65,8 +59,8 @@ export default function Home() {
             </section>
 
 
-           <FAQSection/>
-<ContactButtons/>
+            <FAQSection />
+            <ContactButtons />
             <Footer />
 
         </div>

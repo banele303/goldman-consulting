@@ -1,10 +1,9 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
+
 import { Card, CardContent } from "@/components/ui/card"
-import { Droplet, Hammer, Shield, ThumbsUp, Wrench, Thermometer, Home, Trash2, Zap, Droplets, ShowerHead, PenTool } from "lucide-react"
-import Image from "next/image"
-import Link from "next/link"
+import {  Shield, ThumbsUp, Wrench} from "lucide-react"
+
 
 export default function AboutUs() {
   return (

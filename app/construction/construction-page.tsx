@@ -54,7 +54,7 @@ const GoldmanConstructionPage = () => {
           whileInView={{ opacity: 1 }} 
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          Goldman Construction, a subsidiary of Goldman Holding, is a leading construction company specializing in building, civil engineering, and project management services. We deliver high-quality construction solutions that exceed our clients' expectations.
+          Goldman Construction, a subsidiary of Goldman Holding, is a leading construction company specializing in building, civil engineering, and project management services. We deliver high-quality construction solutions that exceed our clients&apos; expectations.
         </motion.p>
       </section>
 
@@ -94,7 +94,7 @@ const GoldmanConstructionPage = () => {
           whileInView={{ opacity: 1 }} 
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          To deliver exceptional construction solutions that exceed our clients' expectations, while maintaining the highest standards of quality, safety, and sustainability.
+          To deliver exceptional construction solutions that exceed our clients&apos; expectations, while maintaining the highest standards of quality, safety, and sustainability.
         </motion.p>
       </section>
 

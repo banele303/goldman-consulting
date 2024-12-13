@@ -1,9 +1,6 @@
 "use client"
-import { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Star, Check, ArrowRight } from 'lucide-react';
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from 'next/image';
 
 export default function GoldmanConstruction() {

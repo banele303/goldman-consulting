@@ -38,7 +38,7 @@ export default function FRQ() {
                         <AccordionItem value="item-5">
                             <AccordionTrigger>Does Goldman Holdings offer industry-specific consulting services?</AccordionTrigger>
                             <AccordionContent>
-                                Yes, we provide expert consulting services tailored to the construction, environmental, and manufacturing industries. Our consultants have extensive experience in these sectors, allowing us to offer specialized guidance and actionable strategies that address each industry's unique challenges.
+                                Yes, we provide expert consulting services tailored to the construction, environmental, and manufacturing industries. Our consultants have extensive experience in these sectors, allowing us to offer specialized guidance and actionable strategies that address each industry&apos;s unique challenges.
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>

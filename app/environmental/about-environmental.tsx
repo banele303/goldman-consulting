@@ -1,10 +1,7 @@
 "use client";
 
-import { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Star, Check, ArrowRight } from 'lucide-react';
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from 'next/image';
 
 export default function GoldmanManufacturing() {
@@ -12,7 +9,7 @@ export default function GoldmanManufacturing() {
     overview: [
       {
         title: 'Manufacturing Overview',
-        description: 
+        description:
           'Goldman Manufacturing, a subsidiary of Goldman Holding, is a leading manufacturer of a diverse range of products, including detergents, bricks, rebars, blocks, paint, and waterproofing solutions.',
       },
     ],
