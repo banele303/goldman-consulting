@@ -90,15 +90,15 @@ export function Navbar() {
           </nav>
           <div className="flex items-center space-x-4">
             <Button asChild className="hidden md:inline-flex" variant="outline">
-              <Link href="tel:+1234567890">
+              <Link href="tel:+27634582860">
                 <Phone className="mr-2 h-4 w-4" />
                 Call Us
               </Link>
             </Button>
             <Sheet>
               <SheetTrigger asChild>
-                <Button variant="ghost" className="px-0 text-base hover:bg-transparent focus:ring-0 md:hidden">
-                  <Menu className="h-5 w-5" />
+                <Button variant="ghost" className="pr-14 text-base  hover:bg-transparent focus:ring-0 md:hidden">
+                  <Menu className="h-10 w-10 " />
                   <span className="sr-only">Toggle Menu</span>
                 </Button>
               </SheetTrigger>
@@ -123,7 +123,7 @@ export function Navbar() {
                   </Accordion>
                   <NavItem href="/contact">Contact Us</NavItem>
                   <Button asChild variant="outline" className="mt-4">
-                    <Link href="tel:+1234567890">
+                    <Link href="tel:+27634582860">
                       <Phone className="mr-2 h-4 w-4" />
                       Call Us
                     </Link>

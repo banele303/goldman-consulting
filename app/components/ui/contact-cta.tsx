@@ -16,12 +16,12 @@ export default function ContactCTA() {
         >
           <h2 className="text-xl md:text-3xl font-bold mb-4">Ready to Transform Your Company?</h2>
           <p className="text-xl mb-8">Contact us today for a free consultation </p>
-          <Button asChild className="hidden md:inline-flex" variant="outline">
-              <Link href="tel:+1234567890">
-                <Phone className="mr-2 h-4 w-4" />
-                Call Us
-              </Link>
-            </Button>
+          <Button asChild variant="outline" className="mt-4 bg-orange-800">
+                    <Link href="tel:+27634582860">
+                      <Phone className="mr-1 h-4 w-4" />
+                      Call Us : +27634582860
+                    </Link>
+                  </Button>
         </motion.div>
       </div>
     </section>

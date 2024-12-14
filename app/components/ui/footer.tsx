@@ -26,19 +26,22 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <h3 className="text-xl font-semibold mb-4">Services</h3>
+                        <h3 className="text-xl font-semibold mb-4">INDUSTRIES</h3>
+
                         <ul className="space-y-2">
-                            <li><a href="#" className="text-gray-400 hover:text-white">Consulting</a></li>
-                            <li><a href="#" className="text-gray-400 hover:text-white">Project Management</a></li>
-                            <li><a href="#" className="text-gray-400 hover:text-white">Sustainability Solutions</a></li>
-                        </ul>
+                            <li><Link href="/construction" className="text-gray-400 hover:text-white">Construction</Link></li>
+                            <li><Link href="/environmental" className="text-gray-400 hover:text-white">Environmental</Link></li>
+                            <li><Link href="/manufacturing" className="text-gray-400 hover:text-white">Manufacturing</Link></li>
+             </ul>
+
+            
                     </div>
                     <div>
                         <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
                         <ul className="space-y-2">
                             <li className="flex items-center space-x-2">
                                 <Phone size={16} />
-                                <span>+27 (0)81 375 3372</span>
+                                <span>+27 63 458 2860</span>
                             </li>
                             <li className="flex items-center space-x-2">
                                 <Mail size={16} />

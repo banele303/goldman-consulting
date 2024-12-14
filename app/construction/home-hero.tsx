@@ -21,8 +21,8 @@ export default function BathroomHero() {
           className="opacity-30"
         />
       </div>
-      <div className="container mx-auto px-4  pt-7 md:pt-[4rem] relative z-10 md:max-w-6xl md:px-[4rem]">
-        <h1 className="text-3xl md:text-5xl font-bold mb-4 pt-[6rem]">Professional Consulting Services</h1>
+      <div className="container mx-auto px-4 py-[2rem]  md:pt-[4rem] relative z-10 md:max-w-6xl md:px-[4rem]">
+        <h1 className="text-3xl md:text-5xl font-bold mb-4 md:pt-[6rem]">Professional Consulting Services</h1>
         <p className="text-xl md:text-2xl mb-8">Construction , Environmental and Manufacturing Consulting</p>
         <Button size="lg" className="bg-white text-blue-600 font-bold  hover:bg-black">
           Get a In Touch
