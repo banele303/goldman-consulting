@@ -8,7 +8,7 @@ export default function AboutEnvironmentalSolutions() {
             <div className="w-24 h-1 bg-green-400 mx-auto mb-6"></div>
 
             <p className="md:text-center text-[18px] mb-12">
-                As a subsidiary of Goldman Holding, we're pioneers in sustainability, driving innovation in environmental solutions. Our dedication is clear sustainable practices Integrating eco-friendly methods into every aspect of our work. Minimizing our footprint for a healthier planet. Creating a better tomorrow by Inspiring positive change through our commitment to the environment.
+                As a subsidiary of Goldman Holding, we&apos;re pioneers in sustainability, driving innovation in environmental solutions. Our dedication is clear sustainable practices Integrating eco-friendly methods into every aspect of our work. Minimizing our footprint for a healthier planet. Creating a better tomorrow by Inspiring positive change through our commitment to the environment.
             </p>
 
 
