@@ -10,10 +10,11 @@ import Link from "next/link"
 
 
 const items = [
-  "Proven track record of success",
-  " Collaborative approach to consulting",
-  "Flexible and adaptable to meet client needs",
-  "Commitment to excellence and quality"
+  "Consistent Track Record of Success ",
+  "Delivering Outstanding Outcomes",
+  "Commitment to excellence and quality ",
+  "Anticipating Trends, Embracing Innovation ",
+  "Collaborations Built on Trust and Transparency"
 ]
 
 
@@ -36,19 +37,17 @@ export default function Featured() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Innovative Solutions</h3>
               <p className="mb-4">
-                At Goldman Holding, we&apos;re driven by an unwavering passion for
-                innovation and an unrelenting commitment to quality. By combining
-                these core values with our extensive expertise and experience, we deliver exceptional
-                results and build enduring relationships with our clients. <br />
-
-                At Goldman Holdings, we believe in pushing the boundaries of what&apos;s possible.
-                Our team of expert  combines cutting-edge technology with creative problem-solving
-                to deliver innovative solutions that meet and exceed our clients expectations.
+              At Goldman Holding, we&apos;re fueled by a passion for innovation 
+              and a commitment to excellence. Our unique blend of expertise, 
+              experience and core values enables us to deliver outstanding results
+               and build enduring relationships with our clients. 
+               <br/>
+               <br/>
+               We stay ahead of the curve, leveraging the latest advancements through 
+               continuous investment in research and development. This ensures our clients
+                benefit from cutting-edge solutions, tailored to their specific needs.
               </p>
-              <p>
-                We stay at the forefront of industry trends and continuously
-                invest in research and development to bring the latest advancements to our projects.
-              </p>
+              
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-4">Why Choose Us </h3>

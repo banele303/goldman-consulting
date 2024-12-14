@@ -27,7 +27,11 @@ export default function SecondSection() {
            text-[16px]  my-6 md:my-10  text-bold text-gray-500"
                     >
 
-                        At Goldman Holding, we deliver expert consulting solutions tailored to the unique needs of diverse industries. Our seasoned team of professionals is dedicated to driving exceptional outcomes and building enduring, trust-based relationships with our clients.
+As a trusted partner to businesses across diverse industries,
+ we deliver bespoke consulting solutions that address unique 
+ challenges and opportunities. Our team of seasoned experts is 
+ committed to driving outstanding results, fostering long-term relationships and 
+earning the trust of our clients through exceptional service and expertise. 
                         <br />
 
                     </h3>
@@ -42,9 +46,10 @@ export default function SecondSection() {
                         className="
            text-[16px]  my-6 md:my-10  text-bold text-gray-500"
                     >
-                        We provide a comprehensive suite of consulting services to 
-                        empower our subsidiaries and partners to achieve their goals, overcome 
-                        challenges and drive sustainable success.
+                     We offer a comprehensive range of consulting services,
+                      expertly designed to empower our subsidiaries and partners.
+                       Through collaborative partnerships, we help navigate industry complexities,
+                      achieve strategic goals, overcome challenges and drive sustainable success. 
 
                     </h3>
 

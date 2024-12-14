@@ -49,8 +49,8 @@ const HeroSlider = () => {
   return (
     <div className="relative h-screen overflow-hidden">
       <div className="absolute top-0 left-0 w-full py-6 px-10 bg-gradient-to-r from-blue-900  to-blue-600 text-white text-center z-50">
-        <h1 className="text-[22px] md:text-5xl font-extrabold">Goldman Holdings Consulting</h1>
-        <p className="mt-2 text-[16px] md:text-2xl font-light">Your trusted partner in Construction, Manufacturing, and Environmental Consulting</p>
+        <h1 className="text-[22px] md:text-5xl font-extrabold">GOLDMAN HOLDING </h1>
+        <p className="mt-2 text-[16px] md:text-2xl font-light">Your Trusted Partner in Building Wealth </p>
       </div>
       
       <Swiper

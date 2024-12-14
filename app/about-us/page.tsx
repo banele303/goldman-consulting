@@ -14,7 +14,7 @@ export default function Home (){
 <Navbar/>
 <AboutHero/>
 <AboutUs/>
-<Featured/>
+{/* <Featured/> */}
 <FRQ/>
 <ContactButtons/>
 <Footer/>

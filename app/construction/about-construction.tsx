@@ -8,20 +8,21 @@ export default function AboutGoldmanConstruction() {
             <div className="w-24 h-1 bg-yellow-400 mx-auto mb-6"></div>
 
             <p className="text-center mb-12">
-            Goldman Construction, a subsidiary of Goldman Holding, is a leading construction company specializing in building, civil engineering, and project management services. We deliver high-quality construction solutions that exceed our clients&apos; expectations. Goldman Construction has established itself as a trusted and reliable partner in the construction industry. Our experienced professionals have a proven track record of successfully completing projects on time, within budget, and to the highest standards of quality. Our mission is to deliver exceptional construction solutions that exceed our clients&apos; expectations, while maintaining the highest standards of quality, safety, and sustainability
+                As a subsidiary of Goldman Holding, we specialize in building,
+                civil engineering, and project management services. With a proven
+                track record of delivering high-quality projects on time, within budget
+                and to exceptional standards, we&apos;ve established ourselves as a trusted
+                partner in the construction industry.
             </p>
 
-            <h2 className="text-2xl font-bold mb-4">Our History</h2>
-            <p className="mb-6">
-                Goldman Construction has established itself as a trusted and reliable partner in the construction industry. Our experienced professionals have a proven track record of successfully completing projects on time, within budget, and to the highest standards of quality.
-            </p>
 
-            <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
-            <p className="mb-6">
-                To deliver exceptional construction solutions that exceed our clients&apos; expectations, while maintaining the highest standards of quality, safety, and sustainability.
-            </p>
 
-            <h2 className="text-2xl font-bold mb-4">Our Services</h2>
+            <h2 className="text-2xl font-bold mb-4">To deliver unparalleled construction solutions that surpass client expectations, while upholding unwavering commitments to: </h2>
+            <p className="mb-6"><span className="font-bold pr-2">Quality: </span> Uncompromising excellence in every project </p>
+            <p className="mb-6"><span className="font-bold pr-2">Safety:  </span> Ensuring the well-being of people and communities</p>
+            <p className="mb-6"><span className="font-bold pr-2">Sustainability: </span>Minimizing environmental impact for a better future </p>
+
+<h2 className="text-2xl font-bold mb-4">Our Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="p-4 border rounded-lg shadow">
                     <Image
