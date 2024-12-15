@@ -71,7 +71,7 @@ const HeroSlider = () => {
         className="h-full w-full"
       >
         {slides.map((slide, index) => (
-          <SwiperSlide key={slide.id}>
+          <SwiperSlide key={slide.id}> 
             <div className="relative h-[80vh] w-full md:h-[500px]">
               <Image
                 src={slide.image}
@@ -96,7 +96,7 @@ const HeroSlider = () => {
                    }}>
                   {slide.content}
                 </p>
-                <a href="tel:+1234567890" className="mt-4 inline-block bg-orange-500 text-white text-xl md:text-2xl font-bold py-3 px-6 rounded-sm shadow-lg hover:bg-green-600 transition-all duration-300">Call Us: +27 63 199 7890</a>
+                <a href="tel: +27634582860" className="mt-4 inline-block bg-orange-500 text-white text-xl md:text-2xl font-bold py-3 px-6 rounded-sm shadow-lg hover:bg-green-600 transition-all duration-300">Call Us: +27 63 458 2860</a>
               </div>
             </div>
           </SwiperSlide>

@@ -10,11 +10,12 @@ import Link from "next/link"
 
 
 const items = [
-  "Consistent Track Record of Success ",
+  "Collaborations Built on Trust",
   "Delivering Outstanding Outcomes",
+  "Consistent Track Record of Success ",
   "Commitment to excellence and quality ",
   "Anticipating Trends, Embracing Innovation ",
-  "Collaborations Built on Trust and Transparency"
+ 
 ]
 
 
@@ -35,7 +36,7 @@ export default function Featured() {
           </h2>
           <div className="grid md:grid-cols-2 gap-[4rem]">
             <div>
-              <h3 className="text-xl font-semibold mb-4">Innovative Solutions</h3>
+              <h3 className="text-xl text-center font-semibold mb-4">Innovative Solutions & Expeptional Results</h3>
               <p className="mb-4">
               At Goldman Holding, we&apos;re fueled by a passion for innovation 
               and a commitment to excellence. Our unique blend of expertise, 
@@ -50,7 +51,7 @@ export default function Featured() {
               
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-4">Why Choose Us </h3>
+              <h3 className="text-xl text-center font-semibold mb-4">Why Choose Us </h3>
               <SmartList items={items} />
             </div>
           </div>
@@ -69,7 +70,7 @@ export default function Featured() {
 
               </CardHeader>
               <CardContent>
-                <Image src="/consulting/house.jpeg" alt="HVAC System" width={400} height={200} className="w-full h-auto max-w-[400px] max-h-[200px] rounded-md object-cover" />
+                <Image src="/consulting/const4.jpeg" alt="HVAC System" width={400} height={200} className="w-full h-auto max-w-[400px] max-h-[200px] rounded-md object-cover" />
                 
 
                 <div className="mt-3 items-start flex justify-start ">

@@ -8,6 +8,7 @@ import ContactButtons from "../components/ui/contact-bottons";
 import GoldmanConstruction from "./bath-second";
 import AboutGoldmanConstruction from "./about-construction";
 import FAQSection from "./FRQ-Construction";
+import Gallery from "./gallary-section";
 
 
 export default function Home() {
@@ -19,9 +20,9 @@ export default function Home() {
 
             <BathroomHero />
             <AboutGoldmanConstruction />
-            <GoldmanConstruction />
+            {/* <GoldmanConstruction /> */}
             {/* <PortFolio /> */}
-
+<Gallery/>
 
 
             <SecondTestimonials />

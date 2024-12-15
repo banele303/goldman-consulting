@@ -13,7 +13,7 @@ export default function AboutUs() {
         {/* Company Overview Section */}
         <section className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h2 className="text-3xl font-semibold text-gray-800">Company Overview</h2>
+            <h2 className="text-2xl md:text-3xl font-semibold text-center text-gray-800">COMPANY OVERVIEW </h2>
             <p className="text-gray-600">
               Goldman Holding is a leading management consulting
               firm that empowers a diverse portfolio of subsidiaries
@@ -25,7 +25,7 @@ export default function AboutUs() {
             </p>
 
 
-            <h2 className="text-3xl font-semibold text-gray-800">Collaboration</h2>
+            <h2 className="text-3xl font-semibold text-gray-800">COLLABORATION</h2>
 
 
             <p className="text-gray-600">
@@ -45,14 +45,14 @@ export default function AboutUs() {
             <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-6 space-y-4">
                 <ThumbsUp className="w-12 h-12 text-blue-500 mx-auto" />
-                <h3 className="text-xl font-semibold text-gray-800">Strategy Development</h3>
+                <h3 className="text-xl font-semibold text-center text-blue-800">Strategy Development</h3>
                 <p className="text-gray-600">We partner with our subsidiaries to craft and execute tailored strategies that propel growth, drive improvement and foster sustainability.</p>
               </CardContent>
             </Card>
             <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-6 space-y-4">
                 <Shield className="w-12 h-12 text-blue-500 mx-auto" />
-                <h3 className="text-xl font-semibold text-gray-800">Operational Improvement</h3>
+                <h3 className="text-xl font-semibold text-center text-gray-800">Operational Improvement</h3>
                 <p className="text-gray-600">Our team collaborates with clients to pinpoint areas for enhancement and implement transformative changes that boost efficiency, reduce costs and elevate customer satisfaction.</p>
               </CardContent>
             </Card>
@@ -66,13 +66,7 @@ export default function AboutUs() {
           </div>
         </section>
 
-        {/* Strategic Partnerships Section */}
-        <section className="text-center space-y-12">
-          <h2 className="text-3xl font-semibold text-gray-800">Collaboration</h2>
-          <p className="text-gray-600">
-            Goldman Holding has established strategic partnerships with esteemed organizations, amplifying our expertise and resources. This collaborative framework empowers us to deliver bespoke, comprehensive solutions that precisely address the unique needs and objectives of our clients.
-          </p>
-        </section>
+       
       </main>
     </div>
   )

@@ -1,9 +1,12 @@
 'use client'
 
+
+import { Phone} from 'lucide-react'
 import Image from 'next/image'
 import { Button } from "@/components/ui/button"
 import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
+import Link from 'next/link'
 
 // Custom hook for intersection observer
 const useInView = () => {
@@ -41,7 +44,7 @@ export default function AboutHero() {
   }
 
   return (
-    <section id="hero-section" className="relative h-[80vh] md:h-[70vh] md:min-h-[500px] w-full overflow-hidden">
+    <section id="hero-section" className="relative h-[60vh] md:h-[70vh] md:min-h-[500px] w-full overflow-hidden">
       <Image
         src="/consulting/hero-interior.jpeg"
         alt="Construction site with cranes and workers at sunset"
@@ -96,11 +99,14 @@ Goldman Holding
             transition={{ duration: 0.5, delay: 0.6 }}
           >
             <Button size="lg" className="w-full sm:w-auto bg-orange-600 text-md md:text-base">
-            CALL Now
+           
+            <Link href="tel:+27634582860">
+                      <Phone className="mr-2 h-4 w-4" />
+                      CALL NOW
+                    </Link>
+           
             </Button>
-            <Button size="lg" variant="outline" className="w-full sm:w-auto text-md md:text-base">
-              Get a Free Quote
-            </Button>
+           
           </motion.div>
         </div>
       </div>

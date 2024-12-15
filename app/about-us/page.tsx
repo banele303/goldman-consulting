@@ -1,6 +1,4 @@
 "use client"
-
-
 import ContactButtons from "../components/ui/contact-bottons"
 import Footer from "../components/ui/footer"
 import FRQ from "../components/ui/FRQ"
