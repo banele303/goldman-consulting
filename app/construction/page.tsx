@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import Footer from "../components/ui/footer";
 import SecondTestimonials from "../pressure-washing/second-testimonials";
 import ContactButtons from "../components/ui/contact-bottons";
-import GoldmanConstruction from "./bath-second";
+
 import AboutGoldmanConstruction from "./about-construction";
 import FAQSection from "./FRQ-Construction";
 import Gallery from "./gallary-section";
