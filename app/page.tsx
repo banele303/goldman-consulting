@@ -7,7 +7,7 @@ import Footer from "./components/ui/footer";
 import Featured from "./components/featured";
 import FRQ from "./components/ui/FRQ";
 import HeroSlider from "./components/home-slider";
-import SecondTestimonials from "./pressure-washing/second-testimonials";
+
 
 
 export default function Home() {
@@ -20,9 +20,8 @@ export default function Home() {
       <SecondSection />
       <ContactCTA />
       <Featured />
-      {/* <AllServices /> */}
-      {/* <Testimonials /> */}
-      <SecondTestimonials/>
+     
+      {/* <SecondTestimonials/> */}
       <FRQ />
       {/* <ContactForm /> */}
       <Footer />

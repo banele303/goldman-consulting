@@ -65,7 +65,7 @@ export default function Featured() {
           <div className="grid md:grid-cols-3 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle>Construction</CardTitle>
+                <CardTitle>CONSTRUCTION</CardTitle>
 
               </CardHeader>
               <CardContent>
@@ -96,7 +96,7 @@ export default function Featured() {
 
               </CardHeader>
               <CardContent>
-                <Image src="/consulting/interior.jpeg" alt="HVAC System" width={400} height={200} className="w-full h-auto max-w-[400px] max-h-[200px] rounded-md object-cover" />
+                <Image src="/manu/environment.jpeg" alt="HVAC System" width={400} height={200} className="w-full h-auto max-w-[400px] max-h-[200px] rounded-md object-cover" />
                
 
                 <div className="mt-3 items-start flex justify-start ">
@@ -123,7 +123,7 @@ export default function Featured() {
 
               </CardHeader>
               <CardContent>
-                <Image src="/consulting/const.jpeg" alt="HVAC System" width={400} height={200} className="w-full h-auto max-w-[400px] max-h-[200px] rounded-md object-cover" />
+                <Image src="/manu/manufacturing.jpeg" alt="HVAC System" width={400} height={200} className="w-full h-auto max-w-[400px] max-h-[200px] rounded-md object-cover" />
                
 
                 <div className="mt-3 items-start flex justify-start ">

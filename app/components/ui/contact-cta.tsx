@@ -14,7 +14,7 @@ export default function ContactCTA() {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <h2 className="text-xl md:text-3xl font-bold mb-4">Ready to Transform Your Company?</h2>
+          <h2 className="text-xl md:text-3xl font-bold mb-4">Ready to Transform Your Future?</h2>
           <p className="text-xl mb-8">Contact us today for a free consultation </p>
           <Button asChild variant="outline" className="mt-4 bg-orange-800">
                     <Link href="tel:+27634582860">

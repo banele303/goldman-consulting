@@ -31,7 +31,7 @@ const slides = [
     id: 4,
     title: "Why Choose Us?",
     content: "At Goldman Holdings Consulting, we prioritize excellence, innovation, and tangible results.",
-    image: "/consulting/excellence.jpeg"
+    image: "/manu/img1.jpeg"
   }
 ]
 
@@ -72,7 +72,7 @@ const HeroSlider = () => {
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={slide.id}>
-            <div className="relative h-full w-full md:h-[500px]">
+            <div className="relative h-[80vh] w-full md:h-[500px]">
               <Image
                 src={slide.image}
                 alt={slide.title}
