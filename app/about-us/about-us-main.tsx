@@ -25,7 +25,7 @@ export default function AboutUs() {
             </p>
 
 
-            <h2 className="text-3xl font-semibold text-gray-800">COLLABORATION</h2>
+            <h2 className="text-2xl md:text-3xl text-center font-semibold text-gray-800">COLLABORATION</h2>
 
 
             <p className="text-gray-600">
