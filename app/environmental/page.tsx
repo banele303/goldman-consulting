@@ -1,9 +1,7 @@
 import Footer from "../components/ui/footer";
 import { Navbar } from "../components/ui/Navbar";
-
-
-import GoldmanEnvironmentalProjects from "./bath-second";
 import EnvHero from "./env-hero";
+import EnvirGallery from "./envirGallary";
 import AboutEnvironmentalSolutions from "./environ-section";
 
 
@@ -17,7 +15,7 @@ export default function Home() {
             <EnvHero />
             {/* <GoldmanEnvironmental/> */}
             <AboutEnvironmentalSolutions />
-            <GoldmanEnvironmentalProjects />
+           <EnvirGallery/>
             <Footer />
 
         </div>

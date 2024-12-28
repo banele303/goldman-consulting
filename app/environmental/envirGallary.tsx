@@ -7,37 +7,46 @@ import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 
 const images = [
+ 
   {
-    src: '/manu/cimg.jpg',
-    alt: 'Project 1',
-  },
-  {
-    src: '/manu/cimg2.jpg',
-    alt: 'Project 1',
-  },
-  {
-    src: '/manu/cimg3.jpg',
-    alt: 'Project 1',
-  },
-  {
-    src: '/manu/cmg4.jpg',
-    alt: 'Project 1',
-  },
-  {
-    src: '/manu/img3.jpeg',
-    alt: 'Project 3',
-  },
-  {
-    src: '/manu/img.jpeg',
-    alt: 'Project 4',
-  },
-  {
-    src: '/manu/img.jpeg',
+    src: '/manu/env.jpg',
     alt: 'Project 5',
-  }
+  },
+  {
+    src: '/manu/env1.jpg',
+    alt: 'Project 5',
+  },
+  {
+    src: '/manu/env2.jpg',
+    alt: 'Project 5',
+  },
+  {
+    src: '/manu/env3.jpg',
+    alt: 'Project 5',
+  },
+  {
+    src: '/manu/env4.jpg',
+    alt: 'Project 5',
+  },
+  {
+    src: '/manu/env5.jpg',
+    alt: 'Project 5',
+  },
+  {
+    src: '/manu/env6.jpg',
+    alt: 'Project 5',
+  },
+  {
+    src: '/manu/env8.jpg',
+    alt: 'Project 5',
+  },
+  {
+    src: '/manu/env9.jpg',
+    alt: 'Project 5',
+  },
 ]
 
-export default function Gallery() {
+export default function EnvirGallery() {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const handlePrevious = useCallback(() => {
@@ -61,7 +70,7 @@ export default function Gallery() {
   }, [handleNext])
 
   return (
-    <div className="relative px-[1rem] w-full max-w-4xl mx-auto overflow-hidden">
+    <div className="relative px-[1rem] py-[2rem] w-full max-w-4xl mx-auto overflow-hidden">
 
         <h3 className="py-4 text-2xl text-center">Gallary Section</h3>
       <div className="relative aspect-video">
@@ -73,7 +82,7 @@ export default function Gallery() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
-            className="absolute inset-0  "
+            className="absolute inset-0 w-full h-full "
           >
             <Image
               src={images[currentIndex].src}
