@@ -7,6 +7,7 @@ export default function AboutGoldmanConstruction() {
             <h1 className="text-2xl md:text-4xl font-bold md:text-center mb-2">Goldman Construction</h1>
             <div className="w-24 h-1 bg-yellow-400 mx-auto mb-6"></div>
 
+
             <p className="text-[18px] md:text-center mb-12">
                 As a subsidiary of Goldman Holding, we specialize in building,
                 civil engineering, and project management services. With a proven
@@ -15,13 +16,13 @@ export default function AboutGoldmanConstruction() {
                 partner in the construction industry.
             </p>
 
+            <h2 className="text-2xl md:text-4xl font-bold md:text-center mb-2">Goldman Construction</h2>
 
-
-            <h2 className="text-[18px] md:text-2xl font-bold mb-4">To deliver unparalleled construction solutions that surpass client expectations, while upholding unwavering commitments to: </h2>
-            <p className="mb-6"><span className="font-bold pr-2">Quality: </span> <br />
+            <p className="text-[16px] md:text-2xl  mb-4">To deliver unparalleled construction solutions that surpass client expectations, while upholding unwavering commitments to: </p>
+            <p className="mb-6"><span className="font-bold pr-2">Quality: </span>
                 Uncompromising excellence in every project </p>
-            <p className="mb-6"><span className="font-bold pr-2">Safety:  </span> <br />Ensuring the well-being of people and communities</p>
-            <p className="mb-6"><span className="font-bold pr-2">Sustainability: </span><br />Minimizing environmental impact for a better future </p>
+            <p className="mb-6"><span className="font-bold pr-2">Safety:  </span> Ensuring the well-being of people and communities</p>
+            <p className="mb-6"><span className="font-bold pr-2">Sustainability: </span>Minimizing environmental impact for a better future </p>
 
             <h2 className="text-2xl font-bold mb-4">Our Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

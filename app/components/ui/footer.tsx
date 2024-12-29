@@ -7,8 +7,8 @@ export default function Footer() {
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div>
-                        <h3 className="text-xl font-semibold mb-4">Goldman Holdings Consulting</h3>
-                        <p className="mb-4">Empowering industries with innovative engineering solutions.</p>
+                        <h3 className="text-xl font-semibold mb-4">Goldman Holding</h3>
+                        <p className="mb-4">Empowering industries with innovative engineered solutions.</p>
                         <div className="flex space-x-4">
                             <a href="#" className="text-gray-400 hover:text-white"><Facebook size={20} /></a>
                             <a href="#" className="text-gray-400 hover:text-white"><Twitter size={20} /></a>
@@ -20,21 +20,23 @@ export default function Footer() {
                         <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
                         <ul className="space-y-2">
                             <li><Link href="/" className="text-gray-400 hover:text-white">Home</Link></li>
-                            <li><Link href="/about" className="text-gray-400 hover:text-white">About</Link></li>
-                            <li><Link href="/service" className="text-gray-400 hover:text-white">Services</Link></li>
-                            <li><Link href="/contact" className="text-gray-400 hover:text-white">Contact</Link></li>
+                            <li><Link href="/about-us" className="text-gray-400 hover:text-white">About</Link></li>
+
+                            <li><Link href="tel:+27634582860">
+
+                                Call Us
+                            </Link></li>
                         </ul>
                     </div>
                     <div>
                         <h3 className="text-xl font-semibold mb-4">INDUSTRIES</h3>
-
                         <ul className="space-y-2">
                             <li><Link href="/construction" className="text-gray-400 hover:text-white">Construction</Link></li>
                             <li><Link href="/environmental" className="text-gray-400 hover:text-white">Environmental</Link></li>
                             <li><Link href="/manufacturing" className="text-gray-400 hover:text-white">Manufacturing</Link></li>
-             </ul>
+                        </ul>
 
-            
+
                     </div>
                     <div>
                         <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
@@ -55,7 +57,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-                    <p>&copy; {new Date().getFullYear()} Goldman Holdings Consulting. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Goldman Holdings . All rights reserved. Created by <Link href="/southflow.co.za/web-development"></Link></p>
                 </div>
             </div>
         </footer>

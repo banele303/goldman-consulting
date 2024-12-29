@@ -14,8 +14,7 @@ export default function Home() {
         <div>
             <Navbar />
             <ManufacturingHero />
-
-            <AboutManufacturing/>
+<AboutManufacturing/>
 <ManuFAQSection/>
 <Footer/>
 

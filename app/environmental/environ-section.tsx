@@ -10,34 +10,16 @@ export default function AboutEnvironmentalSolutions() {
             <p className="md:text-center text-[18px] mb-12">
                 As a subsidiary of Goldman Holding, we&apos;re pioneers in sustainability, driving innovation in environmental solutions. Our dedication is clear sustainable practices Integrating eco-friendly methods into every aspect of our work. Minimizing our footprint for a healthier planet. Creating a better tomorrow by Inspiring positive change through our commitment to the environment.
             </p>
-
-
-
-            <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
+ <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
             <p className="mb-6 text-[18px]">
                 To deliver sustainable and innovative environmental solutions that preserve natural resources, support eco-friendly initiatives, and ensure a healthier environment for generations to come.
             </p>
+    <h2 className="text-[20px] md:text-2xl font-bold mb-4">Portfolio </h2>
 
-
-            <h2 className="text-[20px] md:text-2xl font-bold mb-4">Portfolio </h2>
-
-
-
-
-
-
-
-
-
-
-
-            <p className="mb-6 text-[18px]">We recognize the importance of the environment. Our environmental portfolio show our commitment to sustainable practices and reducing our ecological footprint. </p>
-            <p className="mb-6 text-[18px]"><span className="font-bold pr-2"> Environmental Consulting: </span> <br />
-                Guiding organizations toward sustainable practices and minimizing environmental impact.
-            </p>
-            <p className="mb-6 text-[18px]"><span className="font-bold pr-2">Sustainable Infrastructure: </span> <br />Developing green buildings, eco-friendly systems and environmentally responsible infrastructure projects. </p>
-            <p className="mb-6 text-[18px]"><span className="font-bold pr-2">Environmental Conservation: </span><br />Supporting reforestation efforts, wildlife preservation, and conservation initiatives. </p>
-            <p className="mb-6 text-[18px]"><span className="font-bold pr-2">Waste Management: </span><br /> Implementing effective waste reduction, recycling and disposal strategies. </p>
+ <p className="mb-6 text-[18px]">We recognize the importance of the environment. 
+                Our environmental portfolio show our commitment to sustainable practices and 
+                reducing our ecological footprint. </p>
+           
 <h2 className="text-2xl font-bold mb-4">Our Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="p-4 border rounded-lg shadow">

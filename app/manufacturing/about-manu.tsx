@@ -8,7 +8,9 @@ export default function AboutManufacturingIndustry() {
             <div className="w-24 h-1 bg-green-400 mx-auto mb-6"></div>
 
             <p className="text-center mb-12">
-                Goldman Manufacturing, a subsidiary of Goldman Holding, is a leading manufacturer of a diverse range of products, including detergents, bricks, rebars, blocks, paint, and waterproofing solutions. Our commitment to quality and innovation drives us to deliver products that meet the highest standards for our customers in the construction, cleaning, and industrial sectors.
+            ECOMAX MANUFACTURING, a subsidiary of Goldman Holding,
+                 is a leading manufacturer of a diverse range of products, 
+                 including detergents, bricks, rebars, blocks, paint and waterproofing solutions. Our commitment to quality and innovation drives us to deliver products that meet the highest standards for our customers in the construction, cleaning, and industrial sectors.
             </p>
 
             <h2 className="text-2xl font-bold mb-4">Our Products</h2>
@@ -55,7 +57,7 @@ export default function AboutManufacturingIndustry() {
                     />
                     <h3 className="text-xl font-bold mb-2">Slabs</h3>
                     <ul className="list-disc list-inside">
-                        <li>Rib and block/polystyrene slabs for roofing</li>
+                        <li>Rib and block/polystyrene slabs for construction</li>
                         <li>Lightweight, cost-effective, and insulating solution</li>
                         <li>Ideal for both residential and commercial projects</li>
                     </ul>
@@ -72,7 +74,7 @@ export default function AboutManufacturingIndustry() {
                     className="rounded-lg mb-4"
                 />
                 <ul className="list-disc list-inside">
-                    <li>Decorative, industrial, and specialized coatings</li>
+                    <li>Decorative, industrial and specialized coatings</li>
                     <li>High-quality, long-lasting finishes</li>
                     <li>Wide range of colors and finishes available</li>
                 </ul>
