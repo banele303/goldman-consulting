@@ -4,31 +4,24 @@ import { Button } from "@/components/ui/button";
 export default function AboutGoldmanConstruction() {
     return (
         <div className="mx-auto px-[2rem] py-8">
-            <h1 className="text-2xl md:text-4xl font-bold md:text-center mb-2">Goldman Construction</h1>
+            <h1 className="text-2xl md:text-4xl font-bold text-center mb-2">Goldman Construction</h1>
             <div className="w-24 h-1 bg-yellow-400 mx-auto mb-6"></div>
 
 
             <p className="text-[18px] md:text-center mb-12">
-                As a subsidiary of Goldman Holding, we specialize in building,
-                civil engineering, and project management services. With a proven
-                track record of delivering high-quality projects on time, within budget
-                and to exceptional standards, we&apos;ve established ourselves as a trusted
-                partner in the construction industry.
+            As a subsidiary of Goldman Holding, we deliver 
+            expert construction solutions in Building, Civil engineering and 
+            Project management. Our proven track record of on-time, on-budget
+             and exceptional-quality project delivery
+             has established us as a trusted leader in the construction industry
             </p>
 
-            <h2 className="text-2xl md:text-4xl font-bold md:text-center mb-2">Goldman Construction</h2>
-
-            <p className="text-[16px] md:text-2xl  mb-4">To deliver unparalleled construction solutions that surpass client expectations, while upholding unwavering commitments to: </p>
-            <p className="mb-6"><span className="font-bold pr-2">Quality: </span>
-                Uncompromising excellence in every project </p>
-            <p className="mb-6"><span className="font-bold pr-2">Safety:  </span> Ensuring the well-being of people and communities</p>
-            <p className="mb-6"><span className="font-bold pr-2">Sustainability: </span>Minimizing environmental impact for a better future </p>
 
             <h2 className="text-2xl font-bold mb-4">Our Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="p-4 border rounded-lg shadow">
                     <Image
-                        src="/manu/civil.jpeg"
+                        src="/environ/civil.jpeg"
                         alt="Civil Engineering"
                         width={400}
                         height={300}
@@ -133,7 +126,7 @@ export default function AboutGoldmanConstruction() {
 
                 <div className="p-4 border rounded-lg shadow">
                     <Image
-                        src="/consulting/house.jpeg"
+                        src="/environ/alumin.jpeg"
                         alt="Aluminium Services"
                         width={400}
                         height={300}

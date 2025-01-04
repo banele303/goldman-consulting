@@ -16,13 +16,13 @@ export default function Home() {
         <div>
             <Navbar />
 
+            <Gallery/>
 
-
-            <BathroomHero />
+            
             <AboutGoldmanConstruction />
             {/* <GoldmanConstruction /> */}
             {/* <PortFolio /> */}
-<Gallery/>
+
 
 
             <SecondTestimonials />

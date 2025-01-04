@@ -40,7 +40,7 @@ export default function AboutUs() {
 
         {/* Our Services Section */}
         <section className="space-y-12">
-          <h2 className="text-3xl font-semibold text-gray-800 text-center">Strategic Planning</h2>
+          <h2 className="text-3xl font-semibold text-gray-800 text-center mb-[-2rem] mt-[-4rem]">Strategic Planning</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-6 space-y-4">

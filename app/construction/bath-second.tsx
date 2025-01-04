@@ -17,7 +17,7 @@ export default function GoldmanConstruction() {
     services: [
       {
         title: 'Building Construction',
-        image: '/consulting/const.jpeg'
+        image: '/environ/civil.jpeg'
      
 
       },
@@ -48,7 +48,7 @@ export default function GoldmanConstruction() {
       },
       {
         title: 'Project Management',
-        image: '/consulting/const4.jpeg'
+        image: '/environ/alumin.jpeg'
       
       },
     ],
