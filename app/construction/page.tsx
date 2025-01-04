@@ -1,5 +1,5 @@
 import { Navbar } from "../components/ui/Navbar";
-import BathroomHero from "./home-hero";
+
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import Footer from "../components/ui/footer";
@@ -16,9 +16,9 @@ export default function Home() {
         <div>
             <Navbar />
 
-            <Gallery/>
+            <Gallery />
 
-            
+
             <AboutGoldmanConstruction />
             {/* <GoldmanConstruction /> */}
             {/* <PortFolio /> */}
