@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function AboutEnvironmentalSolutions() {
     return (
@@ -10,17 +11,8 @@ export default function AboutEnvironmentalSolutions() {
             <p className="md:text-center text-[18px] mb-12">
                 As a subsidiary of Goldman Holding, we&apos;re pioneers in sustainability, driving innovation in environmental solutions. Our dedication is clear sustainable practices Integrating eco-friendly methods into every aspect of our work. Minimizing our footprint for a healthier planet. Creating a better tomorrow by Inspiring positive change through our commitment to the environment.
             </p>
- <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
-            <p className="mb-6 text-[18px]">
-                To deliver sustainable and innovative environmental solutions that preserve natural resources, support eco-friendly initiatives, and ensure a healthier environment for generations to come.
-            </p>
-    <h2 className="text-[20px] md:text-2xl font-bold mb-4">Portfolio </h2>
 
- <p className="mb-6 text-[18px]">We recognize the importance of the environment. 
-                Our environmental portfolio show our commitment to sustainable practices and 
-                reducing our ecological footprint. </p>
-           
-<h2 className="text-2xl font-bold mb-4">Our Services</h2>
+            <h2 className="text-2xl font-bold mb-4">Our Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="p-4 border rounded-lg shadow">
                     <Image
@@ -88,7 +80,13 @@ export default function AboutEnvironmentalSolutions() {
                 <li>Customizable solutions to meet unique client needs</li>
             </ul>
 
-            <Button className="w-full md:w-auto">Contact Us for Your Next Project →</Button>
+            <Button className="w-full md:w-auto">
+
+              <Link href="tel:+27634582860">
+
+         Contact Us for Your Next Project →
+                </Link>
+            </Button>
         </div>
     );
 }

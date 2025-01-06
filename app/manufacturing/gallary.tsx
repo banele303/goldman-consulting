@@ -9,44 +9,33 @@ import { Button } from '@/components/ui/button'
 const images = [
  
   {
-    src: '/manu/env.jpg',
+    src: '/manu/manufacturing.jpeg',
+    alt: 'Project 3',
+  },
+  {
+    src: '/manu/menu4.jpeg',
+    alt: 'Project 4',
+  },
+  {
+    src: '/manu/manu3.jpeg',
     alt: 'Project 5',
   },
   {
-    src: '/manu/env1.jpg',
-    alt: 'Project 5',
-  },
-  {
-    src: '/manu/env2.jpg',
-    alt: 'Project 5',
-  },
-  {
-    src: '/manu/env3.jpg',
-    alt: 'Project 5',
+    src: '/manu/manu2.jpeg',
+    alt: 'Project 6',
   },
   {
     src: '/manu/env4.jpg',
-    alt: 'Project 5',
+    alt: 'Project 7',
   },
   {
     src: '/manu/env5.jpg',
-    alt: 'Project 5',
+    alt: 'Project 8',
   },
-  {
-    src: '/manu/env6.jpg',
-    alt: 'Project 5',
-  },
-  {
-    src: '/manu/env8.jpg',
-    alt: 'Project 5',
-  },
-  {
-    src: '/manu/env9.jpg',
-    alt: 'Project 5',
-  },
+
 ]
 
-export default function EnvirGallery() {
+export default function ManuGallery() {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const handlePrevious = useCallback(() => {
@@ -72,7 +61,7 @@ export default function EnvirGallery() {
   return (
     <div className="relative px-[1rem] py-[2rem] w-full max-w-4xl mx-auto overflow-hidden">
 
-     
+      
       <div className="relative aspect-video">
         <AnimatePresence initial={false} custom={currentIndex}>
           <motion.div

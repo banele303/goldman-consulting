@@ -57,7 +57,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-                    <p>&copy; {new Date().getFullYear()} Goldman Holdings . All rights reserved. Created by <Link href="/southflow.co.za/web-development"></Link></p>
+                    <p>&copy; {new Date().getFullYear()} Goldman Holding. All rights reserved. Created by <Link href="/southflow.co.za/web-development"></Link></p>
                 </div>
             </div>
         </footer>
