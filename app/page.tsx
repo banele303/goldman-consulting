@@ -18,7 +18,7 @@ export default function Home() {
       {/* <HomeHero /> */}
       <HeroSlider />
       <SecondSection />
-      <ContactCTA />
+      {/* <ContactCTA /> */}
       <Featured />
      
       {/* <SecondTestimonials/> */}

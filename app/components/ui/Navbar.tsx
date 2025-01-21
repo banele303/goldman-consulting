@@ -62,7 +62,7 @@ export function Navbar() {
       <div className="container flex h-24 items-center">
         <div className="flex items-center justify-between w-full">
           <Link href="/" className="flex items-center pl-[2rem]">
-            <Image src="/consulting/logo-removebg-preview.png" alt="Goldman Holdings Logo" width={180} height={48} className="h-16 md:h-auto w-auto" />
+            <Image src="/barthrooms/ghlogo.jpeg" alt="Goldman Holdings Logo" width={180} height={48} className="h-16 md:h-auto w-auto" />
           </Link>
           <nav className="hidden md:flex items-center space-x-8 text-base font-medium">
             <NavItem href="/">Home</NavItem>

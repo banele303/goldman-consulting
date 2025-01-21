@@ -7,9 +7,9 @@ export default function FRQ() {
         <div className="flex flex-col min-h-screen">
 
             {/* FAQ Section */}
-            <section className="py-16">
+            <section className="pt-16">
                 <div className="container mx-auto px-4">
-                    <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
+                    <h2 className="text-2xl  md:text-3xl font-bold mb-3 text-center">Frequently Asked Questions</h2>
                     <Accordion type="single" collapsible className="w-full max-w-3xl mx-auto text-[20px]">
                         <AccordionItem value="item-1">
                             <AccordionTrigger>What types of industries does Goldman Holdings serve?</AccordionTrigger>

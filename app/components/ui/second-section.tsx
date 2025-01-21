@@ -9,18 +9,18 @@ export default function SecondSection() {
     return (
 
         <div>
-            <section className="grid grid-cols-1 mt-[-9rem] md:mt-0 md:grid-cols-2 gap-8 mx-auto px-[1rem] md:px-[2rem]">
+            <section className="grid grid-cols-1 mt-[-9rem] md:mt-0 md:grid-cols-2 gap-8 mx-auto ">
 
                 <div className="md:ml-[4rem]">
                     <h3
                         className="
-           text-xl md:text-4xl mt-10 md:my-10 text-center  font-extrabold text-blue-500">
+           text-xl md:text-4xl mt-2 md:my-10 text-center  font-extrabold ">
                         WELCOME TO GOLDMAN HOLDING
 
                     </h3>
                     <h3
                         className="
-           text-[17px]   md:my-6  pt-3 text-bold text-gray-500"
+           text-[17px] px-[1rem] md:px-[2rem]   md:my-6  pt-3 text-bold text-gray-500"
                     >
 
                         As a trusted partner to businesses across diverse industries,
@@ -34,13 +34,13 @@ export default function SecondSection() {
 
                     <h3
                         className="
-           text-xl pt-6 font-extrabold text-center text-blue-500">
+           text-xl pt-6 font-extrabold text-center ">
 
                         OUR EXPERTISE
                     </h3>
                     <h3
                         className="
-           text-[17px]  my-4 md:my-10  text-bold text-gray-500"
+           text-[17px] px-[1rem] md:px-[2rem]  my-2 md:my-10  text-bold text-gray-500"
                     >
                         We offer a comprehensive range of consulting services,
                         expertly designed to empower our subsidiaries and partners.
@@ -52,7 +52,7 @@ export default function SecondSection() {
 
 
                 </div>
-                <div className="relative mb-4 py-5 px-[2rem] w-full h-[50vh] md:h-full overflow-hidden">
+                <div className="relative mb-4   py-b w-full h-[50vh] md:h-full overflow-hidden ">
                     <Image
                         src={"/manu/img.jpeg"}
                         width={1920}

@@ -36,8 +36,8 @@ export default function Featured() {
           </h2>
           <div className="grid md:grid-cols-2 gap-[4rem]">
             <div>
-              <h3 className="text-xl text-center font-semibold mb-4">Innovative Solutions & Expeptional Results</h3>
-              <p className="mb-4">
+            
+              <p className="mb-1">
               At Goldman Holding, we&apos;re fueled by a passion for innovation 
               and a commitment to excellence. Our unique blend of expertise, 
               experience and core values enables us to deliver outstanding results
@@ -51,7 +51,7 @@ export default function Featured() {
               
             </div>
             <div>
-              <h3 className="text-xl text-center font-semibold mb-4">Why Choose Us </h3>
+              <h3 className="text-xl text-center mt-[-2rem] font-semibold mb-4">Why Choose Us </h3>
               <SmartList items={items} />
             </div>
           </div>
@@ -60,7 +60,7 @@ export default function Featured() {
 
 
       {/* Featured Projects Section */}
-      <section className="py-16">
+      <section className="pb-16 mt-[-2rem]">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center">Featured Industries</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -147,7 +147,7 @@ export default function Featured() {
 
 
       {/* Call to Action */}
-      <section className="py-16 bg-yellow-600 text-white">
+      <section className="py-16 my-[-2rem] bg-yellow-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Engineer Your Success?</h2>
           <p className="text-xl mb-8">Contact Us today for innovative consulting</p>
