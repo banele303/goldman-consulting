@@ -2,7 +2,7 @@
 
 import { Navbar } from "./components/ui/Navbar";
 import SecondSection from "./components/ui/second-section";
-import ContactCTA from "./components/ui/contact-cta";
+
 import Footer from "./components/ui/footer";
 import Featured from "./components/featured";
 import FRQ from "./components/ui/FRQ";
