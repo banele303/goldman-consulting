@@ -45,7 +45,7 @@ export default function AboutUs() {
             <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-6 space-y-4">
                 <ThumbsUp className="w-12 h-12 text-blue-500 mx-auto" />
-                <h3 className="text-xl font-semibold text-center text-blue-800">Strategy Development</h3>
+                <h3 className="text-xl font-semibold text-center text-gray-800">Strategy Development</h3>
                 <p className="text-gray-600">We partner with our subsidiaries to craft and execute tailored strategies that propel growth, drive improvement and foster sustainability.</p>
               </CardContent>
             </Card>

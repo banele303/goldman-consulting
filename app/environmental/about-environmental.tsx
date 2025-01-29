@@ -10,7 +10,7 @@ export default function GoldmanManufacturing() {
       {
         title: 'Manufacturing Overview',
         description:
-          'Goldman Manufacturing, a subsidiary of Goldman Holding, is a leading manufacturer of a diverse range of products, including detergents, bricks, rebars, blocks, paint, and waterproofing solutions.',
+          'GREEN  SHIELD SOLUTIONS a subsidiary of Goldman Holding, is a leading manufacturer of a diverse range of products, including detergents, bricks, rebars, blocks, paint, and waterproofing solutions.',
       },
     ],
     products: [

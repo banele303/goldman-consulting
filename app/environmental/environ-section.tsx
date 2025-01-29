@@ -9,7 +9,7 @@ export default function AboutEnvironmentalSolutions() {
             <div className="w-24 h-1 bg-green-400 mx-auto mb-6"></div>
 
             <p className="md:text-center text-[18px] mb-12">
-                As a subsidiary of Goldman Holding, we&apos;re pioneers in sustainability, driving innovation in environmental solutions. Our dedication is clear sustainable practices Integrating eco-friendly methods into every aspect of our work. Minimizing our footprint for a healthier planet. Creating a better tomorrow by Inspiring positive change through our commitment to the environment.
+            GREEN SHIELD SOLUTIONS a subsidiary of Goldman Holding, we&apos;re pioneers in sustainability, driving innovation in environmental solutions. Our dedication is clear sustainable practices Integrating eco-friendly methods into every aspect of our work. Minimizing our footprint for a healthier planet. Creating a better tomorrow by Inspiring positive change through our commitment to the environment.
             </p>
 
             <h2 className="text-2xl font-bold mb-4">Our Services</h2>
@@ -74,8 +74,8 @@ export default function AboutEnvironmentalSolutions() {
                 At Environmental Solutions, we prioritize environmental stewardship and sustainable development. Our team of experts works tirelessly to ensure that our projects benefit the planet and the communities we serve. Here’s why you should choose us:
             </p>
             <ul className="list-disc list-inside mb-6">
-                <li>Commitment to sustainability and eco-friendly practices</li>
-                <li>Highly skilled and experienced environmental professionals</li>
+                <li>Sustainable and eco friendly practices</li>
+                <li>Highly Skilled and experienced professionals</li>
                 <li>Comprehensive range of environmental services</li>
                 <li>Customizable solutions to meet unique client needs</li>
             </ul>

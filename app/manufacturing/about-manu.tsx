@@ -3,11 +3,11 @@ import { Button } from "@/components/ui/button";
 
 export default function AboutManufacturingIndustry() {
     return (
-        <div className="mx-auto px-[2rem] py-8">
-            <h1 className="text-4xl font-bold text-center mb-2">Goldman Manufacturing</h1>
+        <div className="mx-auto  py-8">
+            <h1 className="text-3xl  font-bold text-center mb-2">Goldman Manufacturing</h1>
             <div className="w-24 h-1 bg-green-400 mx-auto mb-6"></div>
 
-            <p className="text-center mb-12">
+            <p className="text-center mb-12 px-4" >
             ECOMAX MANUFACTURING, a subsidiary of Goldman Holding,
                  is a leading manufacturer of a diverse range of products, 
                  including detergents, bricks, rebars, blocks, paint and waterproofing solutions. Our commitment to quality and innovation drives us to deliver products that meet the highest standards for our customers in the construction, cleaning, and industrial sectors.

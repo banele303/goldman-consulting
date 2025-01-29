@@ -13,7 +13,7 @@ const items = [
   "Collaborations Built on Trust",
   "Delivering Outstanding Outcomes",
   "Consistent Track Record of Success ",
-  "Commitment to excellence and quality ",
+  "Commitment to Excellence and Quality ",
   "Anticipating Trends, Embracing Innovation ",
  
 ]

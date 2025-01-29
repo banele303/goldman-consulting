@@ -9,11 +9,11 @@ export default function AboutGoldmanConstruction() {
 
 
             <p className="text-[18px] md:text-center mb-12">
-            As a subsidiary of Goldman Holding, we deliver 
-            expert construction solutions in Building, Civil engineering and 
-            Project management. Our proven track record of on-time, on-budget
-             and exceptional-quality project delivery
-             has established us as a trusted leader in the construction industry
+                ERNTHGO PROJECTS a subsidiary of Goldman Holding, we deliver
+                expert construction solutions in Building, Civil engineering and
+                Project management. Our proven track record of on-time, on-budget
+                and exceptional-quality project delivery
+                has established us as a trusted leader in the construction industry
             </p>
 
 
@@ -113,14 +113,15 @@ export default function AboutGoldmanConstruction() {
                     />
                     <h3 className="text-xl font-bold mb-2">Waterproofing</h3>
                     <ul className="list-disc list-inside">
-                        <li>Damp Proofing</li>
-                        <li>Roof Coating</li>
-                        <li>Leak Waterproofing</li>
-                        <li>Roof Slab Waterproofing</li>
-                        <li>Parapet Wall Waterproofing</li>
-                        <li>Basement Waterproofing</li>
-                        <li>Water Reservoir</li>
-                        <li>Fish Pond Waterproofing</li>
+                        <li>Slab Waterproofing</li>
+                        <li>Epdm Waterproofing </li>
+                        <li>Torchon Waterproofing</li>
+                        <li>Cementious Waterproofing </li>
+                        <li>Polyurethane Waterproofing</li>
+                        <li>Liquid Rubber Waterproofing </li>
+                        <li>Dams and Ponds Waterproofing</li>
+
+
                     </ul>
                 </div>
 
@@ -151,7 +152,7 @@ export default function AboutGoldmanConstruction() {
                 At Goldman Construction, we pride ourselves on our commitment to excellence. Our team of experts ensures that every project is executed with precision and dedication. Choose us for:
             </p>
             <ul className="list-disc list-inside mb-6">
-                <li>Innovative and sustainable construction solutions</li>
+                <li>Innovative  construction solutions</li>
                 <li>Highly skilled and experienced professionals</li>
                 <li>Commitment to safety and quality</li>
                 <li>On-time and on-budget project delivery</li>
