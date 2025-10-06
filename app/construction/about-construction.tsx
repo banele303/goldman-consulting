@@ -20,13 +20,15 @@ export default function AboutGoldmanConstruction() {
             <h2 className="text-2xl font-bold mb-4">Our Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="p-4 border rounded-lg shadow">
-                    <Image
-                        src="/environ/civil.jpeg"
-                        alt="Civil Engineering"
-                        width={400}
-                        height={300}
-                        className="rounded-lg mb-4"
-                    />
+                    <div className="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                        <Image
+                            src="/environ/civil.jpeg"
+                            alt="Civil Engineering"
+                            width={400}
+                            height={300}
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
                     <h3 className="text-xl font-bold mb-2">Civil Engineering</h3>
                     <ul className="list-disc list-inside">
                         <li>Structure Design</li>
@@ -41,13 +43,15 @@ export default function AboutGoldmanConstruction() {
                 </div>
 
                 <div className="p-4 border rounded-lg shadow">
-                    <Image
-                        src="/consulting/const-hero.jpeg"
-                        alt="General Building"
-                        width={400}
-                        height={300}
-                        className="rounded-lg mb-4"
-                    />
+                    <div className="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                        <Image
+                            src="/consulting/const-hero.jpeg"
+                            alt="General Building"
+                            width={400}
+                            height={300}
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
                     <h3 className="text-xl font-bold mb-2">General Building</h3>
                     <ul className="list-disc list-inside">
                         <li>Brickwork</li>
@@ -62,13 +66,15 @@ export default function AboutGoldmanConstruction() {
                 </div>
 
                 <div className="p-4 border rounded-lg shadow">
-                    <Image
-                        src="/consulting/electrical.jpeg"
-                        alt="Electrical Engineering"
-                        width={400}
-                        height={300}
-                        className="rounded-lg mb-4"
-                    />
+                    <div className="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                        <Image
+                            src="/consulting/electrical.jpeg"
+                            alt="Electrical Engineering"
+                            width={400}
+                            height={300}
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
                     <h3 className="text-xl font-bold mb-2">Electrical Engineering</h3>
                     <ul className="list-disc list-inside">
                         <li>Power System Designing</li>
@@ -83,13 +89,15 @@ export default function AboutGoldmanConstruction() {
                 </div>
 
                 <div className="p-4 border rounded-lg shadow">
-                    <Image
-                        src="/consulting/hero-interior.jpeg"
-                        alt="Flooring"
-                        width={400}
-                        height={300}
-                        className="rounded-lg mb-4"
-                    />
+                    <div className="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                        <Image
+                            src="/consulting/hero-interior.jpeg"
+                            alt="Flooring"
+                            width={400}
+                            height={300}
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
                     <h3 className="text-xl font-bold mb-2">Flooring</h3>
                     <ul className="list-disc list-inside">
                         <li>Vinyl Flooring</li>
@@ -104,13 +112,15 @@ export default function AboutGoldmanConstruction() {
                 </div>
 
                 <div className="p-4 border rounded-lg shadow">
-                    <Image
-                        src="/consulting/constroof.jpeg"
-                        alt="Waterproofing"
-                        width={400}
-                        height={300}
-                        className="rounded-lg mb-4"
-                    />
+                    <div className="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                        <Image
+                            src="/consulting/constroof.jpeg"
+                            alt="Waterproofing"
+                            width={400}
+                            height={300}
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
                     <h3 className="text-xl font-bold mb-2">Waterproofing</h3>
                     <ul className="list-disc list-inside">
                         <li>Slab Waterproofing</li>
@@ -126,13 +136,15 @@ export default function AboutGoldmanConstruction() {
                 </div>
 
                 <div className="p-4 border rounded-lg shadow">
-                    <Image
-                        src="/environ/alumin.jpeg"
-                        alt="Aluminium Services"
-                        width={400}
-                        height={300}
-                        className="rounded-lg mb-4"
-                    />
+                    <div className="w-full h-48 mb-4 overflow-hidden rounded-lg">
+                        <Image
+                            src="/environ/alumin.jpeg"
+                            alt="Aluminium Services"
+                            width={400}
+                            height={300}
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
                     <h3 className="text-xl font-bold mb-2">Aluminium</h3>
                     <ul className="list-disc list-inside">
                         <li>Shopfront</li>
@@ -148,7 +160,7 @@ export default function AboutGoldmanConstruction() {
             </div>
 
             <h2 className="text-2xl font-bold mt-10 mb-4">Why Choose Us?</h2>
-            <p className="mb-6">
+            <p className="mb-6 max-w-4xl">
                 At Goldman Construction, we pride ourselves on our commitment to excellence. Our team of experts ensures that every project is executed with precision and dedication. Choose us for:
             </p>
             <ul className="list-disc list-inside mb-6">

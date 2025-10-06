@@ -8,32 +8,28 @@ import { Button } from '@/components/ui/button'
 
 const images = [
   {
-    src: '/manu/cimg.jpg',
-    alt: 'Project 1',
+    src: '/loggos.jpeg',
+    alt: 'Investor Logo 1',
   },
   {
-    src: '/manu/cimg2.jpg',
-    alt: 'Project 1',
+    src: '/loggos2.jpeg',
+    alt: 'Investor Logo 2',
   },
   {
-    src: '/manu/cimg3.jpg',
-    alt: 'Project 1',
+    src: '/loggos4.jpeg',
+    alt: 'Investor Logo 3',
   },
   {
-    src: '/manu/cmg4.jpg',
-    alt: 'Project 1',
+    src: '/loggos7.jpeg',
+    alt: 'Investor Logo 4',
   },
   {
-    src: '/manu/img3.jpeg',
-    alt: 'Project 3',
+    src: '/logos3.jpeg',
+    alt: 'Investor Logo 5',
   },
   {
-    src: '/manu/img.jpeg',
-    alt: 'Project 4',
-  },
-  {
-    src: '/manu/img.jpeg',
-    alt: 'Project 5',
+    src: '/logos9.jpeg',
+    alt: 'Investor Logo 6',
   }
 ]
 
@@ -63,7 +59,7 @@ export default function Gallery() {
   return (
     <div className="relative px-[1rem] w-full max-w-4xl mx-auto overflow-hidden">
 
-        <h3 className="py-4 text-2xl text-center">Gallary Section</h3>
+        <h3 className="py-4 text-2xl text-center">Our Investors</h3>
       <div className="relative aspect-video">
         <AnimatePresence initial={false} custom={currentIndex}>
           <motion.div

@@ -32,11 +32,9 @@ export default function Featured() {
       {/* Our Approach Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-center">What Sets Us Apart
-          </h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">Why Choose Us</h2>
           <div className="grid md:grid-cols-2 gap-[4rem]">
             <div>
-            
               <p className="mb-1">
               At Goldman Holding, we&apos;re fueled by a passion for innovation 
               and a commitment to excellence. Our unique blend of expertise, 
@@ -48,10 +46,9 @@ export default function Featured() {
                continuous investment in research and development. This ensures our clients
                 benefit from cutting-edge solutions, tailored to their specific needs.
               </p>
-              
             </div>
             <div>
-              <h3 className="text-xl text-center mt-[-2rem] font-semibold mb-4">Why Choose Us </h3>
+              <h3 className="text-xl font-semibold mb-4 underline decoration-green-500 decoration-2 underline-offset-4">What Sets Us Apart</h3>
               <SmartList items={items} />
             </div>
           </div>

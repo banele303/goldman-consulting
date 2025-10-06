@@ -3,6 +3,7 @@
 
 import { Card, CardContent } from "@/components/ui/card"
 import { Shield, ThumbsUp, Wrench } from "lucide-react"
+import Image from "next/image"
 
 
 export default function AboutUs() {
@@ -11,7 +12,7 @@ export default function AboutUs() {
       <main className="container mx-auto px-4 py-12 space-y-24">
 
         {/* Company Overview Section */}
-        <section className="grid md:grid-cols-2 gap-12 items-center">
+        <section className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h2 className="text-2xl md:text-3xl font-semibold text-center text-gray-800">COMPANY OVERVIEW </h2>
             <p className="text-gray-600">
@@ -35,6 +36,15 @@ export default function AboutUs() {
                end-to-end solutions that precisely 
               meet the distinct needs and objectives of our clients.
             </p>
+          </div>
+          <div className="hidden lg:block">
+            <Image 
+              src="/new-image3.jpeg" 
+              alt="Goldman Holding Company Overview" 
+              width={400}
+              height={300}
+              className="max-w-md h-auto rounded-lg shadow-lg object-cover mx-auto"
+            />
           </div>
         </section>
 
