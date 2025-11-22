@@ -6,7 +6,6 @@ import Footer from "../components/ui/footer";
 import SecondTestimonials from "../pressure-washing/second-testimonials";
 import ContactButtons from "../components/ui/contact-bottons";
 
-import AboutGoldmanConstruction from "./about-construction";
 import FAQSection from "./FRQ-Construction";
 import Gallery from "./gallary-section";
 
