@@ -4,7 +4,7 @@ import Gallery from '../construction/gallary-section'
 import AboutGoldmanConstruction from '../construction/about-construction'
 import Footer from '../components/ui/footer'
 
-export const page = () => {
+export default function Page() {
   return (
     <div>
          <Navbar />
