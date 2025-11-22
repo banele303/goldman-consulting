@@ -17,9 +17,21 @@ export default function Home() {
             <Navbar />
 
             <Gallery />
+<div className="mx-auto px-[2rem] py-8">
+      <h1 className="text-2xl md:text-4xl font-bold text-center mb-2">
+        Goldman Construction
+      </h1>
+      <div className="w-24 h-1 bg-yellow-400 mx-auto mb-6"></div>
 
+      <p className="text-[18px] md:text-center mb-12">
+      We deliver expert
+        construction solutions in Building, Civil engineering and Project
+        management. Our proven track record of on-time, on-budget and
+        exceptional-quality project delivery has established us as a trusted
+        leader in the construction industry
+      </p></div>
 
-            <AboutGoldmanConstruction />
+            {/* <AboutGoldmanConstruction /> */}
             {/* <GoldmanConstruction /> */}
             {/* <PortFolio /> */}
 

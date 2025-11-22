@@ -11,7 +11,7 @@ import 'swiper/css/pagination'
 const slides = [
   {
     id: 1,
-    title: "Welcome to Goldman Holdings Consulting",
+    title: "Welcome to Goldman Holding",
     content: "Expert consulting solutions for diverse industries in South Africa.",
     image: "/consulting/hero-interior.jpeg"
   },
