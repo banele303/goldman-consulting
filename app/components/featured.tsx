@@ -25,7 +25,7 @@ export default function Featured() {
       {/* Our Approach Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-center">Why Choose Us</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center underline decoration-green-500 decoration-4 underline-offset-8">Why Choose Us</h2>
 
           <div>
             <SmartList items={items} />
