@@ -1,18 +1,18 @@
 import React from "react";
-import { Navbar } from "../components/ui/Navbar";
+import { DilonNavbar } from "./dilon-navbar";
 import Gallery from "../construction/gallary-section";
 import AboutGoldmanConstruction from "../construction/about-construction";
-import Footer from "../components/ui/footer";
+import DilonFooter from "./dilon-footer";
 
 export default function Page() {
   return (
     <div>
-      <Navbar logo="/dilon.jpeg" />
+      <DilonNavbar />
 
       <Gallery />
 
       <AboutGoldmanConstruction />
-      <Footer />
+      <DilonFooter />
     </div>
   );
 }

@@ -14,14 +14,14 @@ import SecondTestimonials from "../pressure-washing/second-testimonials";
 import ContactButtons from "../components/ui/contact-bottons";
 
 import FAQSection from "./FRQ-Construction";
-import Gallery from "./gallary-section";
+import ModernGallery from "./modern-gallery";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
 
-      <Gallery />
+      <ModernGallery />
       <div className="mx-auto px-[2rem] py-8">
         <h1 className="text-2xl md:text-4xl font-bold text-center mb-2">
           Construction

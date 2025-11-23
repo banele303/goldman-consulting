@@ -35,7 +35,7 @@ export default function GalleryPage() {
     <div className="min-h-screen flex flex-col">
       <Navbar/>
       <main className="flex-grow container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold text-center mb-12">Our Investors</h1>
+        <h1 className="text-4xl font-bold text-center mb-12">Our Partners</h1>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {investorLogos.map((logo, index) => (
@@ -49,9 +49,8 @@ export default function GalleryPage() {
                   className="w-full h-full object-contain bg-gray-50"
                 />
               </div>
-              <h3 className="text-lg font-semibold text-center text-gray-800">
-                {logo.alt}
-              </h3>
+              
+              
             </div>
           ))}
         </div>

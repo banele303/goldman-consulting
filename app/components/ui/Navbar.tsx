@@ -86,7 +86,7 @@ export function Navbar({ logo = "/barthrooms/ghlogo.jpeg" }: { logo?: string }) 
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
-            <NavItem href="/gallary">Gallary</NavItem>
+            <NavItem href="/gallary">Partners</NavItem>
           </nav>
           <div className="flex items-center space-x-4">
             <Button asChild className="hidden md:inline-flex" variant="outline">
@@ -121,7 +121,7 @@ export function Navbar({ logo = "/barthrooms/ghlogo.jpeg" }: { logo?: string }) 
                       </AccordionContent>
                     </AccordionItem>
                   </Accordion>
-                  <NavItem href="/gallary">Gallary</NavItem>
+                  <NavItem href="/gallary">Partners</NavItem>
                   <Button asChild variant="outline" className="mt-4">
                     <Link href="tel:+27634582860">
                       <Phone className="mr-2 h-4 w-4" />
