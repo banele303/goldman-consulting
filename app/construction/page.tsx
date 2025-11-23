@@ -1,4 +1,6 @@
 import { Navbar } from "../components/ui/Navbar";
+import Image from "next/image";
+import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -21,7 +23,7 @@ export default function Home() {
     <div>
       <Navbar />
 
-      <ModernGallery />
+      
       <div className="mx-auto px-[2rem] py-8">
         <h1 className="text-2xl md:text-4xl font-bold text-center mb-2">
           Construction
@@ -34,12 +36,26 @@ export default function Home() {
           on-time, on-budget and exceptional-quality project delivery has
           established us as a trusted leader in the construction industry
         </p>
+
+        <div className="flex flex-col items-center justify-center mb-12">
+          <Link href="/dilon-construction">
+            <Button variant="outline" className="text-xl font-bold mb-6 h-auto py-2 px-8 border-2 hover:bg-gray-100">
+              Our Subsidiary
+            </Button>
+          </Link>
+          <Link href="/dilon-construction" className="hover:opacity-90 transition-opacity">
+            <Image
+              src="/dilon.jpeg"
+              alt="Dilon Construction Logo"
+              width={300}
+              height={150}
+              className="h-auto w-auto max-w-[300px] object-contain"
+            />
+          </Link>
+        </div>
       </div>
 
-      {/* <AboutGoldmanConstruction /> */}
-      {/* <GoldmanConstruction /> */}
-      {/* <PortFolio /> */}
-
+<ModernGallery />
       <SecondTestimonials />
 
       <section className="px-[2rem] md:px-[5rem]">
