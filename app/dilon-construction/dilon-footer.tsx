@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Phone, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 
 export default function DilonFooter() {
