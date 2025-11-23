@@ -4,7 +4,7 @@ export default function AboutGoldmanConstruction() {
   return (
     <div className="mx-auto px-[2rem] py-8">
       <h1 className="text-2xl md:text-4xl font-bold text-center mb-2">
-        Goldman Construction
+        Dilon Construction
       </h1>
       <div className="w-24 h-1 bg-yellow-400 mx-auto mb-6"></div>
 
