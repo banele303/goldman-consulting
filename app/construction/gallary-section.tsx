@@ -48,7 +48,7 @@ export default function Gallery() {
   return (
     <div className="relative px-[1rem] w-full max-w-4xl mx-auto overflow-hidden">
 
-        <h3 className="py-4 text-2xl text-center">Our Construction Projects</h3>
+       
       <div className="relative aspect-video">
         <AnimatePresence initial={false} custom={currentIndex}>
           <motion.div

@@ -7,7 +7,7 @@ import Footer from "../components/ui/footer";
 export default function Page() {
   return (
     <div>
-      <Navbar />
+      <Navbar logo="/dilon.jpeg" />
 
       <Gallery />
 
