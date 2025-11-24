@@ -27,6 +27,14 @@ const investorLogos = [
   {
     src: '/logos9.jpeg',
     alt: 'Investor Logo 6',
+  },
+  {
+    src: '/dilon.jpeg',
+    alt: 'Dilon Construction',
+  },
+  {
+    src: '/enrthgo-logo.jpeg',
+    alt: 'Enrthgo',
   }
 ];
 
@@ -37,7 +45,7 @@ export default function GalleryPage() {
       <main className="flex-grow container mx-auto px-4 py-8">
         <h1 className="text-4xl font-bold text-center mb-12">Our Partners</h1>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {investorLogos.map((logo, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
               <div className="w-full h-48 mb-4 overflow-hidden rounded-lg">
