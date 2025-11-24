@@ -8,7 +8,7 @@ export default function AboutGoldmanConstruction() {
       </h1>
       <div className="w-24 h-1 bg-yellow-400 mx-auto mb-6"></div>
 
-      <p className="text-[18px] md:text-center mb-12">
+      <p className="text-[18px] mb-12 text-center">
      Welcome to Dilon Construction a subsidiary of Goldman Holding, your Partner in the Construction Industry.
 <br/><br/>
 We are a leading construction company specializing in Civil Engineering, Construction Works and Construction Equipments with over a decade of experience, we deliver high-quality construction services to our clients.
