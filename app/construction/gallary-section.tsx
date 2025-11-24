@@ -1,10 +1,9 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react'
+import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { ChevronLeft, ChevronRight } from 'lucide-react'
 import Image from 'next/image'
-import { Button } from '@/components/ui/button'
+import { X } from 'lucide-react'
 
 const images = [
   {
@@ -27,89 +26,82 @@ const images = [
     src: '/dilon-const/const5.jpeg',
     alt: 'Construction Project 5',
   },
-  
   {
     src: '/dilon-const/const6.jpeg',
     alt: 'Construction Project 6',
+  },
+  {
+    src: '/enrthgo-logo.jpeg',
+    alt: 'Enrthgo Logo',
+  },
+  {
+    src: '/dilon.jpeg',
+    alt: 'Dilon Construction Logo',
   }
 ]
 
 export default function Gallery() {
-  const [currentIndex, setCurrentIndex] = useState(0)
-
-  const handlePrevious = useCallback(() => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    )
-  }, [])
-
-  const handleNext = useCallback(() => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
-    )
-  }, [])
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      handleNext()
-    }, 5000) // Change slide every 5 seconds
-
-    return () => clearInterval(interval)
-  }, [handleNext])
+  const [selectedImage, setSelectedImage] = useState<string | null>(null)
 
   return (
-    <div className="relative px-[1rem] w-full max-w-4xl mx-auto overflow-hidden">
+    <section className="py-8 bg-gray-50">
+      <div className="container mx-auto px-4">
+        <h2 className="text-4xl font-bold text-center mb-12">Our Projects</h2>
+        <div className="grid grid-cols-2 gap-6">
+          {images.map((image, index) => (
+            <motion.div
+              key={index}
+              layoutId={`image-${index}`}
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.98 }}
+              className="relative aspect-[4/3] overflow-hidden rounded-xl cursor-pointer shadow-lg group"
+              onClick={() => setSelectedImage(image.src)}
+            >
+              <Image
+                src={image.src}
+                alt={image.alt}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
+            </motion.div>
+          ))}
+        </div>
+      </div>
 
-       
-      <div className="relative aspect-video">
-        <AnimatePresence initial={false} custom={currentIndex}>
+      <AnimatePresence>
+        {selectedImage && (
           <motion.div
-            key={currentIndex}
-            custom={currentIndex}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.5 }}
-            className="absolute inset-0  "
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 backdrop-blur-sm"
+            onClick={() => setSelectedImage(null)}
           >
-            <Image
-              src={images[currentIndex].src}
-              alt={images[currentIndex].alt}
-              fill
-              className="object-cover rounded-xl"
-              priority
-            />
+            <button
+              className="absolute top-4 right-4 text-white hover:text-gray-300 z-50"
+              onClick={() => setSelectedImage(null)}
+            >
+              <X size={32} />
+            </button>
+            <motion.div
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.8, opacity: 0 }}
+              className="relative w-full max-w-5xl h-[80vh]"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <Image
+                src={selectedImage}
+                alt="Selected Project"
+                fill
+                className="object-contain rounded-lg"
+              />
+            </motion.div>
           </motion.div>
-        </AnimatePresence>
-      </div>
-      <Button
-        variant="ghost"
-        size="icon"
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white/10 hover:bg-white/20 text-white rounded-full p-2"
-        onClick={handlePrevious}
-      >
-        <ChevronLeft className="h-6 w-6" />
-      </Button>
-      <Button
-        variant="ghost"
-        size="icon"
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white/10 hover:bg-white/20 text-white rounded-full p-2"
-        onClick={handleNext}
-      >
-        <ChevronRight className="h-6 w-6" />
-      </Button>
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
-        {images.map((_, index) => (
-          <button
-            key={index}
-            className={`w-2 h-2 rounded-full transition-all duration-300 ${
-              index === currentIndex ? 'bg-white scale-125' : 'bg-white/50'
-            }`}
-            onClick={() => setCurrentIndex(index)}
-          />
-        ))}
-      </div>
-    </div>
+        )}
+      </AnimatePresence>
+    </section>
   )
 }
 

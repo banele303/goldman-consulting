@@ -37,7 +37,7 @@ export default function Home() {
           established us as a trusted leader in the construction industry.
         </p>
 
-        <div className="flex flex-col items-center justify-center mb-12">
+        <div className="flex flex-col items-center justify-center mb-4">
           <Link href="/dilon-construction">
             <Button variant="outline" className="text-xl font-bold mb-6 h-auto py-2 px-8 border-2 hover:bg-gray-100">
               Our Subsidiary

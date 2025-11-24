@@ -29,12 +29,8 @@ export default function SecondTestimonials() {
                 quote: "From design to execution, Goldman Holdings Consulting delivered excellence. The team was a pleasure to work with!",
                 rating: 4.5,
               },
-              {
-                name: "Sarah M.",
-                location: "Durbanville",
-                quote: "The waterproofing services were outstanding. Our basement is now completely dry even after heavy rains!",
-                rating: 5,
-              },
+             
+              
               {
                 name: "Michael R.",
                 location: "Green Point",
