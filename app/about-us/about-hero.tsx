@@ -1,10 +1,8 @@
 'use client'
 
-import { Phone, ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { useRef } from 'react'
-import Link from 'next/link'
 
 export default function AboutHero() {
   const ref = useRef(null)
