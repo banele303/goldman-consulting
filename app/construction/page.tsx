@@ -34,7 +34,7 @@ export default function Home() {
           We deliver expert construction solutions in Building, Civil
           engineering and Project management. Our proven track record of
           on-time, on-budget and exceptional-quality project delivery has
-          established us as a trusted leader in the construction industry
+          established us as a trusted leader in the construction industry.
         </p>
 
         <div className="flex flex-col items-center justify-center mb-12">
@@ -43,14 +43,22 @@ export default function Home() {
               Our Subsidiary
             </Button>
           </Link>
-          <Link href="/dilon-construction" className="hover:opacity-90 transition-opacity block">
-            <Image
-              src="/dilon.jpeg"
-              alt="Dilon Construction Logo"
-              width={300}
-              height={150}
-              className="h-auto w-auto max-w-[200px] md:max-w-[300px] object-contain cursor-pointer rounded-md"
-            />
+          <Link href="/dilon-construction" className="group relative block w-fit">
+            <div className="relative overflow-hidden rounded-md">
+              <Image
+                src="/dilon.jpeg"
+                alt="Dilon Construction Logo"
+                width={300}
+                height={150}
+                className="h-auto w-auto max-w-[200px] md:max-w-[300px] object-contain cursor-pointer rounded-md transition-all duration-300 group-hover:scale-105 group-hover:brightness-50"
+              />
+              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <span className="bg-orange-500 text-white text-sm md:text-base font-bold px-6 py-2 rounded-full shadow-xl transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 flex items-center gap-2">
+                  Visit Subsidiary
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </span>
+              </div>
+            </div>
           </Link>
         </div>
       </div>

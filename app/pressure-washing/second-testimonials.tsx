@@ -14,7 +14,7 @@ export default function SecondTestimonials() {
               {
                 name: "John D.",
                 location: "Camps Bay",
-                quote: "Goldman Holdings Consulting exceeded our expectations with their attention to detail and professionalism. Highly recommended!",
+                quote: "They exceeded our expectations with their attention to detail and professionalism. Highly recommended!",
                 rating: 5,
               },
               {
@@ -41,12 +41,7 @@ export default function SecondTestimonials() {
                 quote: "The general building services were top-notch. The team worked efficiently and maintained high standards throughout.",
                 rating: 5,
               },
-              {
-                name: "Lindiwe N.",
-                location: "Newlands",
-                quote: "Goldman Holdings Consulting's aluminium services transformed our shopfront beautifully. Highly professional work!",
-                rating: 5,
-              },
+             
             ].map((testimonial, index) => (
               <Card key={index}>
                 <CardContent className="pt-6">

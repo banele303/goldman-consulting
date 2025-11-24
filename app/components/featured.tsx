@@ -117,7 +117,7 @@ export default function Featured() {
             Ready to Engineer Your Success?
           </h2>
           <p className="text-xl mb-8">
-            Contact Us today for innovative consulting
+            Contact Us today for innovative solutions.
           </p>
           <Button
             size="lg"

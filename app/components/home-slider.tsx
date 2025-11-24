@@ -81,22 +81,8 @@ const HeroSlider = () => {
                 quality={100}
                 priority={index === 0}
               />
-              <div className="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-center items-center p-8">
-                <h2 className="text-4xl pt-[2.5rem] md:text-6xl font-bold mb-4 text-white text-center transform transition-all duration-1000 ease-out"
-                    style={{
-                      opacity: index === activeIndex ? 1 : 0,
-                      transform: index === activeIndex ? 'translateY(0)' : 'translateY(20px)',
-                    }}>
-                  {slide.title}
-                </h2>
-                <p className="text-xl md:text-2xl mb-8 text-white text-center max-w-3xl transform transition-all duration-1000 ease-out delay-300"
-                   style={{
-                     opacity: index === activeIndex ? 1 : 0,
-                     transform: index === activeIndex ? 'translateY(0)' : 'translateY(20px)',
-                   }}>
-                  {slide.content}
-                </p>
-                <a href="tel: +27634582860" className="mt-4 inline-block bg-orange-500 text-white text-xl md:text-2xl font-bold py-3 px-6 rounded-sm shadow-lg hover:bg-green-600 transition-all duration-300">Call Us: +27 63 458 2860</a>
+              <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center p-8">
+                
               </div>
             </div>
           </SwiperSlide>

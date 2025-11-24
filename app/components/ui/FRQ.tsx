@@ -4,7 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 export default function FRQ() {
     return (
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col pb-16">
 
             {/* FAQ Section */}
             <section className="pt-16">
