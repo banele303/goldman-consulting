@@ -62,7 +62,7 @@ export function Navbar({ logo = "/barthrooms/ghlogo.jpeg" }: { logo?: string }) 
       <div className="container flex h-24 items-center">
         <div className="flex items-center justify-between w-full">
           <Link href="/" className="flex items-center pl-[2rem]">
-            <Image src={logo} alt="Goldman Holdings Logo" width={180} height={48} className="h-12 w-auto max-h-12" />
+            <Image src={logo} alt="Goldman Holdings Logo" width={180} height={48} className="h-12 w-auto max-h-12 rounded-md" />
           </Link>
           <nav className="hidden md:flex items-center space-x-8 text-base font-medium">
             <NavItem href="/">Home</NavItem>
@@ -104,7 +104,7 @@ export function Navbar({ logo = "/barthrooms/ghlogo.jpeg" }: { logo?: string }) 
               </SheetTrigger>
               <SheetContent side="left" className="pr-0">
                 <Link href="/" className="flex items-center pl-4">
-                  <Image src={logo} alt="Goldman Holdings Logo" width={180} height={48} className="h-12 w-auto max-h-12" />
+                  <Image src={logo} alt="Goldman Holdings Logo" width={180} height={48} className="h-12 w-auto max-h-12 rounded-md" />
                 </Link>
                 <nav className="mt-8 flex flex-col space-y-4">
                   <NavItem href="/">Home</NavItem>

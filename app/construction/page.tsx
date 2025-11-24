@@ -49,7 +49,7 @@ export default function Home() {
               alt="Dilon Construction Logo"
               width={300}
               height={150}
-              className="h-auto w-auto max-w-[200px] md:max-w-[300px] object-contain cursor-pointer"
+              className="h-auto w-auto max-w-[200px] md:max-w-[300px] object-contain cursor-pointer rounded-md"
             />
           </Link>
         </div>
