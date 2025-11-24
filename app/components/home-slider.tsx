@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectFade, Autoplay, Pagination } from 'swiper/modules'
@@ -36,15 +36,6 @@ const slides = [
 ]
 
 const HeroSlider = () => {
-  const [activeIndex, setActiveIndex] = useState(0)
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveIndex((prevIndex) => (prevIndex + 1) % slides.length)
-    }, 5000)
-
-    return () => clearInterval(interval)
-  }, [])
 
   return (
     <div className="relative h-screen overflow-hidden">

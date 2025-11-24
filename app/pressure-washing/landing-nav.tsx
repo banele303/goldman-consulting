@@ -55,8 +55,8 @@ const LandingNav = () => {
 
 
                                 <li className=" py-2 px-6  border-5 border-sky-900 cursor-pointer text-[17px] font-Poppins text-slate-200 font-bold">
-                                    <a href="tel:+27 74 684 5729" className="lg:flex">
-                                        <Button variant="destructive"> Call Now +27 63 199 5124</Button>
+                                    <a href="tel:+27634582860" className="lg:flex">
+                                        <Button variant="destructive"> Call Now +27 63 458 2860</Button>
 
                                     </a>
                                 </li>
@@ -90,7 +90,7 @@ const LandingNav = () => {
                         <div className="flex flex-col my-4">
                             <button
                                 type="button"
-                                className={`py-2 px-6  mr-[2rem]  hover:from-pink-500  font-bold bg-blue-400 font-poppins font-medium   text-[16px]  md:text-[20px] border-none rounded-md  text-gray-800   hover:scale-[1.1] transition-all duration-75  font-Poppins`}
+                                className={`py-2 px-6  mr-[2rem]  hover:from-pink-500   bg-blue-400 font-poppins font-medium   text-[16px]  md:text-[20px] border-none rounded-md  text-gray-800   hover:scale-[1.1] transition-all duration-75  font-Poppins`}
                             >
                                 <Link href="/contact">Get a Quote</Link>
                             </button>

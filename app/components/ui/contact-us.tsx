@@ -18,7 +18,7 @@ export default function ContactForm() {
                     <div className="space-y-6 pt-5">
                         <div className="flex items-center">
                             <Phone className="w-6 h-6 text-blue-600 mr-2" />
-                            <span>+27 63 199 5124</span>
+                            <span>+27 63 458 2860</span>
                         </div>
                         <div className="flex items-center">
                             <Mail className="w-6 h-6 text-blue-600 mr-2" />

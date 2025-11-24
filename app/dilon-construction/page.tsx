@@ -3,6 +3,7 @@ import { DilonNavbar } from "./dilon-navbar";
 import Gallery from "../construction/gallary-section";
 import AboutGoldmanConstruction from "../construction/about-construction";
 import DilonFooter from "./dilon-footer";
+import ContactButtons from "../components/ui/contact-bottons";
 
 export default function Page() {
   return (
@@ -12,6 +13,7 @@ export default function Page() {
       <Gallery />
 
       <AboutGoldmanConstruction />
+      <ContactButtons />
       <DilonFooter />
     </div>
   );
