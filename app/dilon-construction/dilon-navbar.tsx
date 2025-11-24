@@ -27,7 +27,7 @@ export function DilonNavbar() {
       <div className="container flex h-24 items-center">
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center pl-[2rem]">
-            <Image src="/dilon.jpeg" alt="Dilon Construction Logo" width={240} height={80} className="h-20 w-auto max-h-20" />
+            <Image src="/dilon.jpeg" alt="Dilon Construction Logo" width={240} height={80} className="h-12 md:h-20 w-auto max-h-12 md:max-h-20" />
           </div>
           
           <div className="flex items-center space-x-4">

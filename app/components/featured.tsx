@@ -54,7 +54,7 @@ export default function Featured() {
                 />
 
                 <div className="mt-3 items-start flex justify-start ">
-                  <Link href="/construction">
+                  <Link href="/dilon-construction">
                     <button className="bg-slate-300 text-green-600 px-4 py-1 rounded-md hover:bg-blue-700 transition duration-300 text-[15px]">
                       Learn More
                     </button>

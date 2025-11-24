@@ -8,16 +8,28 @@ import { Button } from '@/components/ui/button'
 
 const images = [
   {
-    src: '/new-image2.jpeg',
+    src: '/dilon-const/const1.jpeg',
     alt: 'Construction Project 1',
   },
   {
-    src: '/new-image1.jpeg',
+    src: '/dilon-const/const2.jpeg',
     alt: 'Construction Project 2',
+  },
+  {
+    src: '/dilon-const/const3.jpeg',
+    alt: 'Construction Project 3',
+  },
+  {
+    src: '/dilon-const/const4.jpeg',
+    alt: 'Construction Project 4',
+  },
+  {
+    src: '/dilon-const/const5.jpeg',
+    alt: 'Construction Project 5',
   },
   
   {
-    src: '/new-image3.jpeg',
+    src: '/dilon-const/const6.jpeg',
     alt: 'Construction Project 6',
   }
 ]

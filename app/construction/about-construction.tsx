@@ -53,7 +53,7 @@ We are a leading construction company specializing in Civil Engineering, Constru
           <ul className="list-disc list-inside">
             <li>Brickwork</li>
             <li>Plastering</li>
-            <li>Painting and Deco</li>
+            <li>Painting </li>
             <li>Plumbing</li>
             <li>Roofing</li>
             <li>Paving</li>

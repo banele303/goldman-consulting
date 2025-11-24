@@ -43,13 +43,13 @@ export default function Home() {
               Our Subsidiary
             </Button>
           </Link>
-          <Link href="/dilon-construction" className="hover:opacity-90 transition-opacity">
+          <Link href="/dilon-construction" className="hover:opacity-90 transition-opacity block">
             <Image
               src="/dilon.jpeg"
               alt="Dilon Construction Logo"
               width={300}
               height={150}
-              className="h-auto w-auto max-w-[300px] object-contain"
+              className="h-auto w-auto max-w-[200px] md:max-w-[300px] object-contain cursor-pointer"
             />
           </Link>
         </div>
