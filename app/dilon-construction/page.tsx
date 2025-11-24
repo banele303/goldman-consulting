@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <div>
       <DilonNavbar />
-
+<div className="pt-5"/>
       <Gallery />
 
       <AboutGoldmanConstruction />
