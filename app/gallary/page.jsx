@@ -67,7 +67,7 @@ export default function GalleryPage() {
           <h2 className="text-2xl font-bold mb-4">Trusted by Industry Leaders</h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
             We are proud to work with these esteemed partners and investors who share our vision 
-            for excellence in construction, environmental services, and manufacturing. Their trust 
+            for excellence. Their trust 
             and support enable us to deliver outstanding results across all our projects.
           </p>
         </div>

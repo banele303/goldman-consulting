@@ -38,34 +38,58 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col items-center justify-center mb-4">
-          <Link href="/dilon-construction">
-            <Button variant="outline" className="text-xl font-bold mb-6 h-auto py-2 px-8 border-2 hover:bg-gray-100">
-              Our Subsidiary
-            </Button>
-          </Link>
-          <Link href="/dilon-construction" className="group relative flex flex-col items-center w-fit">
-            <div className="relative overflow-hidden rounded-md">
-              <Image
-                src="/dilon.jpeg"
-                alt="Dilon Construction Logo"
-                width={300}
-                height={150}
-                className="h-auto w-auto max-w-[200px] md:max-w-[300px] object-contain cursor-pointer rounded-md transition-all duration-300 md:group-hover:scale-105 md:group-hover:brightness-50"
-              />
-              <div className="hidden md:flex absolute inset-0 items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
-                <span className="bg-orange-500 text-white text-base font-bold px-6 py-2 rounded-full shadow-xl transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 flex items-center gap-2">
+          <h2 className="text-2xl font-bold mb-6">Our Subsidiaries</h2>
+          <div className="flex flex-col md:flex-row gap-12 items-center">
+            {/* Dilon Construction */}
+            <Link href="/dilon-construction" className="group relative flex flex-col items-center w-fit">
+              <div className="relative overflow-hidden rounded-md">
+                <Image
+                  src="/dilon.jpeg"
+                  alt="Dilon Construction Logo"
+                  width={300}
+                  height={150}
+                  className="h-auto w-auto max-w-[200px] md:max-w-[300px] object-contain cursor-pointer rounded-md transition-all duration-300 md:group-hover:scale-105 md:group-hover:brightness-50"
+                />
+                <div className="hidden md:flex absolute inset-0 items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+                  <span className="bg-orange-500 text-white text-base font-bold px-6 py-2 rounded-full shadow-xl transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 flex items-center gap-2">
+                    Learn More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </div>
+              <div className="md:hidden mt-4">
+                <span className="bg-orange-500 text-white text-sm font-bold px-6 py-2 rounded-full shadow-xl flex items-center gap-2">
                   Learn More
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </span>
               </div>
-            </div>
-            <div className="md:hidden mt-4">
-              <span className="bg-orange-500 text-white text-sm font-bold px-6 py-2 rounded-full shadow-xl flex items-center gap-2">
-                Learn More
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-              </span>
-            </div>
-          </Link>
+            </Link>
+
+            {/* Erthago Projects */}
+            <Link href="/erthago-projects" className="group relative flex flex-col items-center w-fit">
+              <div className="relative overflow-hidden rounded-md">
+                <Image
+                  src="/enrthgo-logo.jpeg"
+                  alt="Erthago Projects Logo"
+                  width={300}
+                  height={150}
+                  className="h-auto w-auto max-w-[200px] md:max-w-[300px] object-contain cursor-pointer rounded-md transition-all duration-300 md:group-hover:scale-105 md:group-hover:brightness-50"
+                />
+                <div className="hidden md:flex absolute inset-0 items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+                  <span className="bg-green-600 text-white text-base font-bold px-6 py-2 rounded-full shadow-xl transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 flex items-center gap-2">
+                    Learn More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </div>
+              <div className="md:hidden mt-4">
+                <span className="bg-green-600 text-white text-sm font-bold px-6 py-2 rounded-full shadow-xl flex items-center gap-2">
+                  Learn More
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </span>
+              </div>
+            </Link>
+          </div>
         </div>
       </div>
 

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 export default function AboutManufacturingIndustry() {
     return (
         <div className="mx-auto  py-8">
-            <h1 className="text-3xl  font-bold text-center mb-2">Goldman Manufacturing</h1>
+            <h1 className="text-3xl  font-bold text-center mb-2">Manufacturing</h1>
             <div className="w-24 h-1 bg-green-400 mx-auto mb-6"></div>
 
             <p className="text-center mb-12 px-4" >
@@ -12,6 +12,13 @@ export default function AboutManufacturingIndustry() {
                  is a leading manufacturer of a diverse range of products, 
                  including detergents, bricks, rebars, blocks, paint and waterproofing solutions. Our commitment to quality and innovation drives us to deliver products that meet the highest standards for our customers in the construction, cleaning, and industrial sectors.
             </p>
+
+
+
+
+
+
+
 
             <h2 className="text-2xl font-bold mb-4">Our Products</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
