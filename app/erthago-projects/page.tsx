@@ -30,10 +30,10 @@ export default function ErthagoPage() {
           
           <div className="relative z-10 container mx-auto px-4 text-center text-white">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in-up">
-              Building a Sustainable Future
+              Visionary Design & Sustainable Innovation
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto animate-fade-in-up delay-100">
-              Erthago Projects delivers innovative environmental and construction solutions tailored for tomorrow.
+              Welcome to Ernthego Projects a subsidiary of Goldman Holding, your Partner in the Construction Industry.
             </p>
             <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white animate-fade-in-up delay-200">
               Explore Our Services
@@ -49,10 +49,10 @@ export default function ErthagoPage() {
                 <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Who We Are</h2>
                 <div className="w-20 h-1 bg-green-600 mb-6"></div>
                 <p className="text-lg text-gray-700 mb-6">
-                  Erthago Projects is a premier subsidiary of Goldman Holdings, dedicated to excellence in environmental management and sustainable construction. We combine cutting-edge technology with eco-friendly practices to deliver projects that stand the test of time while respecting our planet.
+                  Welcome to Ernthego Projects a subsidiary of Goldman Holding, your Partner in the Construction Industry.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Our team of experts brings decades of experience in civil engineering, environmental rehabilitation, and project management, ensuring that every venture we undertake meets the highest standards of quality and sustainability.
+                  Our team of visionary designers and innovators are dedicated to delivering innovative designs that harmoniously blend cutting-edge technology, timeless design and sustainable practices to create spaces that are beautiful, tailored to your unique needs and style.
                 </p>
                 <Button variant="outline" className="border-green-600 text-green-600 hover:bg-green-50">
                   Learn More About Us
@@ -77,19 +77,19 @@ export default function ErthagoPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
                 {
-                  title: "Environmental Solutions",
+                  title: "Innovative Design",
                   icon: Leaf,
-                  description: "Comprehensive environmental impact assessments, rehabilitation, and waste management strategies."
+                  description: "Cutting-edge architectural designs that harmoniously blend technology and timeless aesthetics for your unique space."
                 },
                 {
-                  title: "Sustainable Construction",
+                  title: "Construction Excellence",
                   icon: ShieldCheck,
-                  description: "Green building practices, energy-efficient designs, and sustainable material sourcing."
+                  description: "Expert construction services delivering beautiful, customized solutions tailored to your specific needs and style."
                 },
                 {
-                  title: "Water Management",
+                  title: "Sustainable Practices",
                   icon: Droplets,
-                  description: "Advanced water treatment, conservation systems, and hydraulic engineering solutions."
+                  description: "Environmentally conscious building methods ensuring quality, durability, and respect for our planet."
                 }
               ].map((service, index) => (
                 <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-t-4 border-green-600">
@@ -114,9 +114,9 @@ export default function ErthagoPage() {
         {/* CTA Section */}
         <section className="py-20 bg-green-900 text-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Start Your Project?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Create Your Ideal Space?</h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Partner with Erthago Projects for sustainable, efficient, and world-class solutions.
+              Let us bring your vision to life with innovative design and expert construction that stands the test of time.
             </p>
             <Button size="lg" className="bg-white text-green-900 hover:bg-gray-100">
               Contact Us Today <ArrowRight className="ml-2 h-5 w-5" />
