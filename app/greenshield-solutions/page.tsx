@@ -155,7 +155,7 @@ export default function GreenShieldPage() {
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Join Us in Building a Sustainable Future</h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Let's work together to protect our environment and create lasting positive change for generations to come.
+              Let&apos;s work together to protect our environment and create lasting positive change for generations to come.
             </p>
             <Button size="lg" className="bg-white text-emerald-900 hover:bg-gray-100">
               Start Your Green Journey <ArrowRight className="ml-2 h-5 w-5" />
