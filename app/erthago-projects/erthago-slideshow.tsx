@@ -18,24 +18,24 @@ const images = [
     alt: 'Construction Project 2',
   },
   {
-    src: '/dilon-const/const3.jpeg',
+    src: '/consulting/const-hero.jpeg',
     alt: 'Construction Project 3',
   },
   {
-    src: '/dilon-const/const4.jpeg',
+    src: '/consulting/house.jpeg',
     alt: 'Construction Project 4',
   },
   {
-    src: '/dilon-const/const5.jpeg',
+    src: '/dilon-const/const3.jpeg',
     alt: 'Construction Project 5',
   },
   {
-    src: '/dilon-const/const6.jpeg',
+    src: '/consulting/const.jpeg',
     alt: 'Construction Project 6',
   }
 ]
 
-export default function Gallery() {
+export default function ErthagoSlideshow() {
   return (
     <section className="py-8 bg-gray-50">
       <div className="container mx-auto px-4">
@@ -72,4 +72,3 @@ export default function Gallery() {
     </section>
   )
 }
-
