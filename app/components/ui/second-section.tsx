@@ -25,9 +25,9 @@ export default function SecondSection() {
 
                         As a trusted partner to businesses across diverse industries,
                         we deliver bespoke consulting solutions that address unique
-                        challenges and opportunities. Our team of seasoned experts is
+                        challenges and ofpportunities. Our team of seasoned experts is
                         committed to driving outstanding results, fostering long-term relationships and
-                        earning the trust of our clients through exceptional service and expertise.
+                        earning the trust of our clients through exceptional  expertise.
                         <br />
 
                     </h3>
@@ -42,7 +42,7 @@ export default function SecondSection() {
                         className="
            text-[17px] px-[1rem] md:px-[2rem]  my-2 md:my-10  text-bold text-gray-500"
                     >
-                        We offer a comprehensive range of consulting services,
+                        We offer a comprehensive range of consultion,
                         expertly designed to empower our subsidiaries and partners.
                         Through collaborative partnerships, we help navigate industry complexities,
                         achieve strategic goals, overcome challenges and drive sustainable success.

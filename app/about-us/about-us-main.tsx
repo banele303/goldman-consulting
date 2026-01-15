@@ -32,7 +32,7 @@ export default function AboutUs() {
             <p className="text-gray-600">
               Goldman Holding fosters strategic partnerships with renowned 
               organizations, expanding our expertise and capabilities. This
-               collaborative ecosystem enables us to design and deliver tailored, 
+               collaborative ecosystem enables us to design and deliver tailored 
                end-to-end solutions that precisely 
               meet the distinct needs and objectives of our clients.
             </p>

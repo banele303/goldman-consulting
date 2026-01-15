@@ -39,7 +39,6 @@ export default function ErthagoSlideshow() {
   return (
     <section className="py-8 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12">Our Projects</h2>
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
