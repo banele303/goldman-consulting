@@ -4,12 +4,12 @@ export default function AboutErthago() {
   return (
     <div className="mx-auto px-[2rem] py-8">
       <h1 className="text-2xl md:text-4xl font-bold text-center mb-2">
-        Erthago Projects
+        Ernthgo Projects
       </h1>
       <div className="w-24 h-1 bg-green-600 mx-auto mb-6"></div>
 
       <p className="text-[18px] mb-12 text-center">
-        Welcome to Ernthego Projects a subsidiary of Goldman Holding, your Partner in the Construction Industry.
+        Welcome to Ernthgo Projects a subsidiary of Goldman Holding, your Partner in the Construction Industry.
         <br/><br/>
         We are a leading construction company specializing in General Building and specialized construction services. With a commitment to quality and excellence, we deliver superior results tailored to your specific needs.
       </p>
