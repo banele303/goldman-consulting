@@ -1,12 +1,12 @@
 
 
-import { Navbar } from "./components/ui/Navbar";
-import SecondSection from "./components/ui/second-section";
+// import { Navbar } from "./components/ui/Navbar";
+// import SecondSection from "./components/ui/second-section";
 
-import Footer from "./components/ui/footer";
-import Featured from "./components/featured";
+// import Footer from "./components/ui/footer";
+// import Featured from "./components/featured";
 
-import HeroSlider from "./components/home-slider";
+// import HeroSlider from "./components/home-slider";
 
 
 
