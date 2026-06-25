@@ -13,16 +13,13 @@ import HeroSlider from "./components/home-slider";
 export default function Home() {
   return (
     <div className="font-[family-name:var(--font-geist-sans)]">
-
-      <Navbar />
-      {/* <HomeHero /> */}
+<p>hosting error</p>
+      {/* <Navbar />
       <HeroSlider />
       <SecondSection />
-      {/* <ContactCTA /> */}
-      <Featured />
-     
+     <Featured />
+     <Footer /> */}
       
-      <Footer />
     </div>
   );
 }
